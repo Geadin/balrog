@@ -1,0 +1,10 @@
+void grabar_skills( void );
+void grabar_razas( void );
+void grabar_progs( int minvnum, int maxvnum );
+void grabar_tabla_comandos( void );
+void grabar_socials( void );
+MPROG_CODE * pedir_prog( int vnum );
+void cargar_comandos(void);
+void cargar_razas(void);
+void cargar_socials(void);
+void cargar_skills(void);

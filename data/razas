@@ -1,0 +1,667 @@
+42
+
+#RAZA
+name unique~
+pc false
+act 0
+aff 0
+off 0
+imm 0
+res 0
+vuln 0
+form 0
+parts 0
+points 0
+class_mult 100 100 100 100 @
+who_name ~
+skills ~ ~ ~ ~ ~ @~
+stats 13 13 13 13 13 @
+max_stats 18 18 18 18 18 @
+size tiny~
+#END
+
+#RAZA
+name human~
+pc true
+act 0
+aff 0
+off 0
+imm 0
+res 0
+vuln 0
+form AHMV
+parts ABCDEFGHIJK
+points 0
+class_mult 100 100 100 100 @
+who_name Human~
+skills ~ ~ ~ ~ ~ @~
+stats 13 13 13 13 13 @
+max_stats 18 18 18 18 18 @
+size medium~
+#END
+
+#RAZA
+name centaur~
+pc true
+act 0
+aff 0
+off 0
+imm 0
+res 0
+vuln 0
+form AHMV
+parts ABCDEFGHIJK
+points 5
+class_mult 100 125 100 120 @
+who_name  Elf ~
+skills sneak~ hide~ ~ ~ ~ @~
+stats 12 14 13 15 11 @
+max_stats 16 20 18 21 15 @
+size small~
+#END
+
+#RAZA
+name halfling~
+pc true
+act 0
+aff 0
+off 0
+imm 0
+res 0
+vuln 0
+form AHMV
+parts ABCDEFGHIJK
+points 8
+class_mult 150 100 125 100 @
+who_name Dwarf~
+skills berserk~ ~ ~ ~ ~ @~
+stats 14 12 14 10 15 @
+max_stats 20 16 19 14 21 @
+size medium~
+#END
+
+#RAZA
+name gnome~
+pc true
+act 0
+aff 0
+off 0
+imm 0
+res 0
+vuln 0
+form AHMV
+parts ABCDEFGHIJK
+points 6
+class_mult 200 150 150 105 @
+who_name Giant~
+skills bash~ fast healing~ ~ ~ ~ @~
+stats 16 11 13 11 14 @
+max_stats 22 15 18 15 20 @
+size large~
+#END
+
+#RAZA
+name elf~
+pc true
+act 0
+aff J
+off 0
+imm 0
+res B
+vuln Z
+form AHMV
+parts ABCDEFGHIJK
+points 0
+class_mult 100 100 100 100 @
+who_name Cent~
+skills ~ ~ ~ ~ ~ @~
+stats 18 17 19 16 19 @
+max_stats 19 19 21 18 21 @
+size medium~
+#END
+
+#RAZA
+name dwarf~
+pc true
+act 0
+aff J
+off 0
+imm 0
+res LQ
+vuln R
+form AHMV
+parts ABCDEFGHIJK
+points 0
+class_mult 100 100 100 100 @
+who_name Half~
+skills ~ ~ ~ ~ ~ @~
+stats 16 17 18 23 19 @
+max_stats 17 18 20 25 20 @
+size tiny~
+#END
+
+#RAZA
+name duergar~
+pc true
+act 0
+aff 0
+off 0
+imm 0
+res 0
+vuln R
+form AHMV
+parts ABCDEFGHIJK
+points 0
+class_mult 100 100 100 100 @
+who_name Duerg~
+skills ~ ~ ~ ~ ~ @~
+stats 16 17 18 23 19 @
+max_stats 17 18 20 25 20 @
+size tiny~
+#END
+
+#RAZA
+name draconian~
+pc true
+act 0
+aff 0
+off 0
+imm 0
+res 0
+vuln 0
+form AHMV
+parts ABCDEFGHIJK
+points 0
+class_mult 100 100 100 100 @
+who_name Draco~
+skills ~ ~ ~ ~ ~ @~
+stats 18 15 15 20 20 @
+max_stats 20 17 17 22 22 @
+size tiny~
+#END
+
+#RAZA
+name frost~
+pc true
+act 0
+aff 0
+off 0
+imm 0
+res 0
+vuln 0
+form AHMV
+parts ABCDEFGHIJK
+points 0
+class_mult 100 100 100 100 @
+who_name Drow~
+skills sneak~ ~ ~ ~ ~ @~
+stats 16 22 16 22 14 @
+max_stats 18 24 18 24 16 @
+size tiny~
+#END
+
+#RAZA
+name fire~
+pc true
+act 0
+aff 0
+off 0
+imm 0
+res 0
+vuln 0
+form AHMV
+parts ABCDEFGHIJK
+points 0
+class_mult 100 100 100 100 @
+who_name Frost~
+skills ~ ~ ~ ~ ~ @~
+stats 20 15 15 15 18 @
+max_stats 24 17 17 16 21 @
+size tiny~
+#END
+
+#RAZA
+name giant~
+pc true
+act 0
+aff 0
+off 0
+imm 0
+res HI
+vuln JP
+form AHMV
+parts ABCDEFGHIJK
+points 0
+class_mult 100 100 100 100 @
+who_name Fire~
+skills enhanced damage~ bash~ ~ ~ ~ @~
+stats 22 14 14 15 20 @
+max_stats 25 15 15 16 23 @
+size tiny~
+#END
+
+#RAZA
+name goblin~
+pc true
+act 0
+aff J
+off 0
+imm 0
+res Q
+vuln C
+form AHMV
+parts ABCDEFGHIJK
+points 0
+class_mult 100 100 100 100 @
+who_name Gnome~
+skills meditation~ ~ ~ ~ ~ @~
+stats 16 19 21 18 16 @
+max_stats 18 23 25 21 18 @
+size tiny~
+#END
+
+#RAZA
+name harpy~
+pc true
+act 0
+aff 0
+off 0
+imm 0
+res 0
+vuln 0
+form AHMV
+parts ABCDEFGHIJK
+points 0
+class_mult 100 100 100 100 @
+who_name Gobln~
+skills ~ ~ ~ ~ ~ @~
+stats 16 17 18 23 19 @
+max_stats 17 18 20 25 20 @
+size tiny~
+#END
+
+#RAZA
+name illithid~
+pc true
+act 0
+aff 0
+off 0
+imm 0
+res 0
+vuln 0
+form AHMV
+parts ABCDEFGHIJK
+points 0
+class_mult 100 100 100 100 @
+who_name Harpy~
+skills ~ ~ ~ ~ ~ @~
+stats 17 19 18 21 15 @
+max_stats 19 21 20 23 17 @
+size tiny~
+#END
+
+#RAZA
+name titan~
+pc true
+act 0
+aff 0
+off 0
+imm 0
+res 0
+vuln 0
+form AHMV
+parts ABCDEFGHIJK
+points 0
+class_mult 100 100 100 100 @
+who_name Illit~
+skills infravision~ meditation~ ~ ~ ~ @~
+stats 17 23 22 17 15 @
+max_stats 19 25 24 19 17 @
+size tiny~
+#END
+
+#RAZA
+name woodelf~
+pc true
+act 0
+aff 0
+off 0
+imm 0
+res 0
+vuln 0
+form AHMV
+parts ABCDEFGHIJK
+points 0
+class_mult 100 100 100 100 @
+who_name Titan~
+skills ~ ~ ~ ~ ~ @~
+stats 20 15 15 16 19 @
+max_stats 22 17 17 18 21 @
+size tiny~
+#END
+
+#RAZA
+name bat~
+pc false
+act 0
+aff TZ
+off FH
+imm 0
+res 0
+vuln S
+form AGV
+parts ACDEFHJKP
+#END
+
+#RAZA
+name bear~
+pc false
+act 0
+aff 0
+off DEO
+imm 0
+res EI
+vuln 0
+form AGV
+parts ABCDEFHJKUV
+#END
+
+#RAZA
+name cat~
+pc false
+act 0
+aff Z
+off FH
+imm 0
+res 0
+vuln 0
+form AGV
+parts ACDEFHJKQUV
+#END
+
+#RAZA
+name centipede~
+pc false
+act 0
+aff Z
+off 0
+imm 0
+res FI
+vuln E
+form ABGO
+parts ACK
+#END
+
+#RAZA
+name dog~
+pc false
+act 0
+aff 0
+off H
+imm 0
+res 0
+vuln 0
+form AGV
+parts ACDEFHJKUV
+#END
+
+#RAZA
+name doll~
+pc false
+act 0
+aff 0
+off 0
+imm ILMNPQR
+res ES
+vuln GHJKO
+form EJMc
+parts ABCGHK
+#END
+
+#RAZA
+name dragon~
+pc false
+act 0
+aff JT
+off 0
+imm 0
+res BEH
+vuln FI
+form AHZ
+parts ACDEFGHIJKPQUVX
+#END
+
+#RAZA
+name fido~
+pc false
+act 0
+aff 0
+off FR
+imm 0
+res 0
+vuln C
+form ABGV
+parts ACDEFHJKQV
+#END
+
+#RAZA
+name fox~
+pc false
+act 0
+aff Z
+off FH
+imm 0
+res 0
+vuln 0
+form AGV
+parts ACDEFHJKQV
+#END
+
+#RAZA
+name goblin~
+pc true
+act 0
+aff J
+off 0
+imm 0
+res Q
+vuln C
+form AHMV
+parts ABCDEFGHIJK
+#END
+
+#RAZA
+name hobgoblin~
+pc false
+act 0
+aff J
+off 0
+imm 0
+res LQ
+vuln 0
+form AHMV
+parts ABCDEFGHIJKY
+#END
+
+#RAZA
+name kobold~
+pc false
+act 0
+aff J
+off 0
+imm 0
+res L
+vuln C
+form ABHMV
+parts ABCDEFGHIJKQ
+#END
+
+#RAZA
+name lizard~
+pc false
+act 0
+aff 0
+off 0
+imm 0
+res L
+vuln I
+form AGXc
+parts ACDEFHKQV
+#END
+
+#RAZA
+name modron~
+pc false
+act 0
+aff J
+off QR
+imm BMNPQ
+res HIK
+vuln 0
+form H
+parts ABCGHJK
+#END
+
+#RAZA
+name orc~
+pc false
+act 0
+aff J
+off 0
+imm 0
+res Q
+vuln S
+form AHMV
+parts ABCDEFGHIJK
+#END
+
+#RAZA
+name pig~
+pc false
+act 0
+aff 0
+off 0
+imm 0
+res 0
+vuln 0
+form AGV
+parts ACDEFHJK
+#END
+
+#RAZA
+name rabbit~
+pc false
+act 0
+aff 0
+off FH
+imm 0
+res 0
+vuln 0
+form AGV
+parts ACDEFHJK
+#END
+
+#RAZA
+name school monster~
+pc false
+act U
+aff 0
+off 0
+imm AB
+res 0
+vuln C
+form AMV
+parts ABCDEFHJKQU
+#END
+
+#RAZA
+name snake~
+pc false
+act 0
+aff 0
+off 0
+imm 0
+res L
+vuln I
+form AGXYc
+parts ADEFKLQVX
+#END
+
+#RAZA
+name song bird~
+pc false
+act 0
+aff T
+off FH
+imm 0
+res 0
+vuln 0
+form AGW
+parts ACDEFHKP
+#END
+
+#RAZA
+name troll~
+pc false
+act 0
+aff FJc
+off D
+imm 0
+res BE
+vuln HK
+form ABHMV
+parts ABCDEFGHIJKUV
+#END
+
+#RAZA
+name water fowl~
+pc false
+act 0
+aff Tb
+off 0
+imm 0
+res R
+vuln 0
+form AGW
+parts ACDEFHKP
+#END
+
+#RAZA
+name wolf~
+pc false
+act 0
+aff Z
+off FH
+imm 0
+res 0
+vuln 0
+form AGV
+parts ACDEFJKQV
+#END
+
+#RAZA
+name wyvern~
+pc false
+act 0
+aff DFT
+off CFH
+imm L
+res 0
+vuln S
+form ABGZ
+parts ACDEFHJKQVX
+#END
+
+#RAZA
+name unique~
+pc false
+act 0
+aff 0
+off 0
+imm 0
+res 0
+vuln 0
+form 0
+parts 0
+#END
+

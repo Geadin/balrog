@@ -1,0 +1,28 @@
+### Features
+
+Balrog is a work in progress, we currently have color and an OLC. 
+
+### TO COMPILE AND RUN:
+
+Go into the src directory and type "make" wait for the program to finish compiling then change into the area directory
+and then type "./startup &" IF everything goes smoothly Balrog should be running on the default port of 9000
+
+A default immortal has been created and put inside of the player directory. Log in using "admin" for the character's
+name and password. From here you can advance mortals to immortals.
+
+### To contribute 
+
+We currently use github.com as our source of collaboration. We assume you have knowledge of how git works, if you are new
+to git, You should look up tutorials on how to push, pull, fetch, and use branches. Before you contribute we ask that you
+remove all object files (file.o), and remove the rom executable from the src directory, clear your logs in the log directory,
+and remove any new players or areas that you may have created. You cannot push to the master branch on github, you must first
+make a pull request.
+ 
+
+If you have any questions on Balrog or git, feel free to look us up on irc. We're currently at irc.esper.net channel #Shroud
+
+### Footnote
+
+The Balrog Mud Daemon is based off of the ROM2.6 mud daemon, Code Written by the Balrog Team is under the GPL license, Which 
+is included with this release(See LICENSE.balrog in the doc directory). The licenses for ROM2.6b and Diku mud are included 
+with this release and can be found in the doc directory.
