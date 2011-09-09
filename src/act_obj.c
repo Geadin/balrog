@@ -1814,6 +1814,24 @@ void do_sacrifice( CHAR_DATA *ch, char *argument )
     if (obj->item_type != ITEM_CORPSE_NPC && obj->item_type != ITEM_CORPSE_PC)
     	silver = UMIN(silver,obj->cost);
 
+    if (obj->item_type == ITEM_CORPSE_NPC)
+	dump_content(obj);
+/*	for (t_obj = obj->contains; t_obj != NULL; t_obj = n_obj)
+            {
+                n_obj = t_obj->next_content;
+                obj_from_obj(t_obj);
+                if (obj->in_room != NULL)
+                    obj_to_room(t_obj,obj->in_room);
+                else if (obj->carried_by != NULL)
+                    obj_to_room(t_obj,obj->carried_by->in_room);
+                else
+                {
+                    extract_obj(t_obj);
+                    continue;
+                }
+            }*/
+
+
     if (silver == 1)
         send_to_char(
 	    "Mota gives you one silver coin for your sacrifice.\n\r", ch );

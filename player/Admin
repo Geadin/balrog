@@ -1,7 +1,7 @@
 #PLAYER
 Name Admin~
 Id   1315535362
-LogO 1315535649
+LogO 1315561400
 Vers 5
 Prom <%hhp %mm %vmv> ~
 Race human~
@@ -9,23 +9,22 @@ Sex  1
 Cla  0
 Levl 60
 Sec  0
-Plyd 86
+Plyd 1645
 Not  0 0 0 0 0
 Scro 22
-Room 3700
-HMV  29 372 111 406 160 454
-Gold 0
-Silv 0
+Room 5300
+HMV  9408 10000 200 406 454 454
+Gold 2
+Silv 985
 Exp  60000
-Act  DQT
+Act  DFQT
 Comm NO
 Pos  8
-Prac 64
+Prac 4
 Trai 62
 Save  -1
-Alig  0
-Hit   1
-ACs 95 95 95 99
+Alig  -3
+ACs 96 96 96 99
 Attr 13 16 13 13 13
 AMod 0 0 0 0 0
 Pass Ad4O69cwrPVg.~
@@ -33,7 +32,7 @@ Titl  the Implementor~
 Pnts 40
 TSex 1
 LLev 0
-HMVP 372 406 454
+HMVP 10000 406 454
 Cnd  0 48 48 48
 Coloura     007 007 007 001 013
 Colourb     013 003 002 001 017
@@ -67,7 +66,7 @@ Sk 1 'energy drain'
 Sk 1 'faerie fire'
 Sk 1 'faerie fog'
 Sk 1 'farsight'
-Sk 1 'fireball'
+Sk 100 'fireball'
 Sk 1 'fireproof'
 Sk 1 'fly'
 Sk 1 'gate'
@@ -100,7 +99,8 @@ Sk 1 'teleport'
 Sk 1 'ventriloquate'
 Sk 1 'weaken'
 Sk 1 'word of recall'
-Sk 40 'dagger'
+Sk 43 'dagger'
+Sk 100 'sword'
 Sk 1 'lore'
 Sk 1 'scrolls'
 Sk 1 'staves'
@@ -141,7 +141,7 @@ End
 Vnum 3701
 Nest 0
 Cond 0
-Wear 16
+Wear -1
 Cost 210
 End
 
@@ -149,7 +149,7 @@ End
 Vnum 3704
 Nest 0
 Cond 0
-Wear 11
+Wear -1
 Cost 0
 End
 
@@ -159,6 +159,263 @@ Nest 0
 Cond 0
 Wear -1
 Cost 500
+End
+
+#O
+Vnum 5321
+Nest 0
+Cond 0
+Wear -1
+Cost 730
+End
+
+#O
+Vnum 5319
+Nest 0
+Cond 0
+Wear -1
+Cost 1450
+End
+
+#O
+Vnum 5327
+Nest 0
+Cond 0
+Wear -1
+Cost 730
+End
+
+#O
+Vnum 5328
+Nest 0
+Cond 0
+Wear -1
+Cost 730
+End
+
+#O
+Vnum 5318
+Nest 0
+Cond 0
+Wear -1
+Cost 1180
+End
+
+#O
+Vnum 1001
+Nest 0
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1001
+Nest 0
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1001
+Nest 0
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1001
+Nest 0
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1001
+Nest 0
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1001
+Nest 0
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1001
+Nest 0
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1001
+Nest 0
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1001
+Nest 0
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1001
+Nest 0
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1001
+Nest 0
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1001
+Nest 0
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1001
+Nest 0
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1001
+Nest 0
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1001
+Nest 0
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1001
+Nest 0
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1001
+Nest 0
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1001
+Nest 0
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1001
+Nest 0
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1001
+Nest 0
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 5331
+Nest 0
+Cond 0
+Wear -1
+Cost 1440
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 5319
+Nest 0
+Cond 0
+Wear -1
+Cost 1450
+End
+
+#O
+Vnum 5324
+Nest 0
+Cond 0
+Wear -1
+Cost 730
+End
+
+#O
+Vnum 5325
+Nest 0
+Cond 0
+Wear -1
+Cost 730
+End
+
+#O
+Vnum 5326
+Nest 0
+Cond 0
+Wear -1
+Cost 730
+End
+
+#O
+Vnum 5320
+Nest 0
+Cond 0
+Wear -1
+Cost 1190
+End
+
+#O
+Vnum 5317
+Nest 0
+Cond 0
+Wear -1
+Cost 1420
 End
 
 #END

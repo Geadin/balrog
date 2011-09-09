@@ -2512,6 +2512,7 @@ void	check_killer	args( ( CHAR_DATA *ch, CHAR_DATA *victim) );
 AD  	*affect_find args( (AFFECT_DATA *paf, int sn));
 void	affect_check	args( (CHAR_DATA *ch, int where, int vector) );
 int	count_users	args( (OBJ_DATA *obj) );
+void    dump_content    args( ( OBJ_DATA *obj ) );
 void 	deduct_cost	args( (CHAR_DATA *ch, int cost) );
 void	affect_enchant	args( (OBJ_DATA *obj) );
 int 	check_immune	args( (CHAR_DATA *ch, int dam_type) );

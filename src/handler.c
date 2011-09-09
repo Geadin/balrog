@@ -1828,7 +1828,31 @@ void obj_from_obj( OBJ_DATA *obj )
     return;
 }
 
+/*
+ * Dump objects from another object
+ */
 
+void dump_content( OBJ_DATA *obj )
+{
+	OBJ_DATA *t_obj;
+	OBJ_DATA *n_obj;
+
+	for (t_obj = obj->contains; t_obj != NULL; t_obj = n_obj)
+            {
+                n_obj = t_obj->next_content;
+                obj_from_obj(t_obj);
+                if (obj->in_room != NULL)
+                    obj_to_room(t_obj,obj->in_room);
+                else if (obj->carried_by != NULL)
+                    obj_to_room(t_obj,obj->carried_by->in_room);
+                else
+                {
+                    extract_obj(t_obj);
+                    continue;
+                }
+            }
+	return;
+}
 
 /*
  * Extract an obj from the world.
