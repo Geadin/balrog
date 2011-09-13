@@ -1,19 +1,19 @@
 #PLAYER
 Name Admin~
 Id   1315535362
-LogO 1315561400
+LogO 1315818291
 Vers 5
 Prom <%hhp %mm %vmv> ~
 Race human~
 Sex  1
 Cla  0
 Levl 60
-Sec  0
-Plyd 1645
+Sec  9
+Plyd 9771
 Not  0 0 0 0 0
 Scro 22
-Room 5300
-HMV  9408 10000 200 406 454 454
+Room 3509
+HMV  10000 10000 406 406 454 454
 Gold 2
 Silv 985
 Exp  60000
@@ -31,7 +31,7 @@ Pass Ad4O69cwrPVg.~
 Titl  the Implementor~
 Pnts 40
 TSex 1
-LLev 0
+LLev 1
 HMVP 10000 406 454
 Cnd  0 48 48 48
 Coloura     007 007 007 001 013
@@ -138,14 +138,6 @@ Cost 0
 End
 
 #O
-Vnum 3701
-Nest 0
-Cond 0
-Wear -1
-Cost 210
-End
-
-#O
 Vnum 3704
 Nest 0
 Cond 0
@@ -162,27 +154,11 @@ Cost 500
 End
 
 #O
-Vnum 5321
-Nest 0
-Cond 0
-Wear -1
-Cost 730
-End
-
-#O
 Vnum 5319
 Nest 0
 Cond 0
 Wear -1
 Cost 1450
-End
-
-#O
-Vnum 5327
-Nest 0
-Cond 0
-Wear -1
-Cost 730
 End
 
 #O
@@ -194,14 +170,6 @@ Cost 730
 End
 
 #O
-Vnum 5318
-Nest 0
-Cond 0
-Wear -1
-Cost 1180
-End
-
-#O
 Vnum 1001
 Nest 0
 Cond 0
@@ -359,15 +327,6 @@ Nest 0
 Cond 0
 Wear -1
 Cost 0
-End
-
-#O
-Vnum 5331
-Nest 0
-Cond 0
-Wear -1
-Cost 1440
-Val  0 0 -1 0 0
 End
 
 #O
@@ -403,19 +362,123 @@ Cost 730
 End
 
 #O
-Vnum 5320
-Nest 0
-Cond 0
-Wear -1
-Cost 1190
-End
-
-#O
 Vnum 5317
 Nest 0
 Cond 0
 Wear -1
 Cost 1420
+End
+
+#O
+Vnum 1001
+Nest 0
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1001
+Nest 0
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1001
+Nest 0
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1001
+Nest 0
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1001
+Nest 0
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1001
+Nest 0
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1001
+Nest 0
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1001
+Nest 0
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1001
+Nest 0
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3075
+Nest 0
+Cond 0
+Wear -1
+Cost 420
+End
+
+#O
+Vnum 3502
+Nest 0
+Cond 0
+Wear -1
+Cost 490
+End
+
+#O
+Vnum 3500
+Nest 0
+Cond 0
+Wear -1
+Cost 460
+End
+
+#O
+Vnum 3045
+Nest 0
+Cond 0
+Wear -1
+Cost 850
+End
+
+#O
+Vnum 3500
+Nest 0
+Cond 0
+Wear -1
+Cost 460
 End
 
 #END

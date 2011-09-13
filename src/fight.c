@@ -935,7 +935,7 @@ bool damage(CHAR_DATA *ch,CHAR_DATA *victim,int dam,int dt,int dam_type,
 	    corpse = get_obj_list( ch, "corpse", ch->in_room->contents ); 
 
 	    if ( IS_SET(ch->act, PLR_AUTOLOOT) &&
-		 corpse && corpse->contains) /* exists and not empty */
+		 corpse && corpse->contains && !IS_SET(ch->act, PLR_AUTOSAC)) /* exists and not empty */
             {
 		do_function(ch, &do_get, "all corpse");
 	    }
@@ -955,6 +955,8 @@ bool damage(CHAR_DATA *ch,CHAR_DATA *victim,int dam,int dt,int dam_type,
 	    {
        	        if (IS_SET(ch->act,PLR_AUTOLOOT) && corpse && corpse->contains)
        	      	{
+		    do_function(ch, &do_get, "all corpse");
+		    do_function(ch, &do_sacrifice, "corpse");
 		    return TRUE;  /* leave if corpse has treasure */
 	      	}
 	        else

@@ -1786,7 +1786,7 @@ void do_sacrifice( CHAR_DATA *ch, char *argument )
 	if (obj->contains)
         {
 	   send_to_char(
-	     "Mota wouldn't like that.\n\r",ch);
+	     "The Gods wouldn't like that.\n\r",ch);
 	   return;
         }
     }
@@ -1816,21 +1816,9 @@ void do_sacrifice( CHAR_DATA *ch, char *argument )
 
     if (obj->item_type == ITEM_CORPSE_NPC)
 	dump_content(obj);
-/*	for (t_obj = obj->contains; t_obj != NULL; t_obj = n_obj)
-            {
-                n_obj = t_obj->next_content;
-                obj_from_obj(t_obj);
-                if (obj->in_room != NULL)
-                    obj_to_room(t_obj,obj->in_room);
-                else if (obj->carried_by != NULL)
-                    obj_to_room(t_obj,obj->carried_by->in_room);
-                else
-                {
-                    extract_obj(t_obj);
-                    continue;
-                }
-            }*/
 
+    if (obj->item_type == ITEM_CONTAINER)
+	dump_content(obj);
 
     if (silver == 1)
         send_to_char(
