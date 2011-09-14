@@ -2092,7 +2092,7 @@ void do_who( CHAR_DATA *ch, char *argument )
 	add_buf(output,buf);
     }
 
-    sprintf( buf2, "\n\rPlayers found: %d\n\r", nMatch );
+    sprintf( buf2, "Players found: %d\n\r", nMatch );
     add_buf(output,buf2);
     page_to_char( buf_string(output), ch );
     free_buf(output);
