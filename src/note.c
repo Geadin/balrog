@@ -373,6 +373,7 @@ void note_attach( CHAR_DATA *ch, int type )
 
     pnote->next		= NULL;
     pnote->sender	= str_dup( ch->name );
+    ch->note_edit_mode  = TRUE;
     pnote->date		= str_dup( "" );
     pnote->to_list	= str_dup( "" );
     pnote->subject	= str_dup( "" );
@@ -843,6 +844,15 @@ void parse_note( CHAR_DATA *ch, char *argument, int type )
 	buf[0] = '\0';
 	free_string(ch->pnote->text);
 	ch->pnote->text = str_dup(buf);
+	return;
+    }
+
+    if ( !str_cmp( arg, "edit" ) )
+    {
+//	ch->pnote->note_editor = TRUE;
+//	note_string_edit(ch,"subject");
+	note_attach( ch,type );
+        note_string_edit( ch, (char **) arg );
 	return;
     }
 

@@ -1,7 +1,7 @@
 CC      = gcc
-PROF    = -O -ggdb
+PROF    = 
 NOCRYPT =
-C_FLAGS =  -Wall $(PROF) $(NOCRYPT)
+C_FLAGS =  -Wall -ggdb $(PROF) $(NOCRYPT)
 L_FLAGS =  $(PROF) -lcrypt
 
 LIBS	= -lcrypt

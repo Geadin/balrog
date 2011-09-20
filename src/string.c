@@ -81,6 +81,27 @@ void string_append( CHAR_DATA *ch, char **pString )
     return;
 }
 
+/* Called for note edit */
+
+void note_string_edit( CHAR_DATA *ch, char **pString)
+{
+    send_to_char( "-========- Entering EDIT Mode -=========-\n\r", ch );
+    send_to_char( "    Type .h on a new line for help\n\r", ch );
+    send_to_char( " Terminate with a @ on a blank line.\n\r", ch );
+    send_to_char( "-=======================================-\n\r", ch );
+
+    if ( *pString == NULL )
+    {
+    *pString = str_dup( "" );
+    }
+
+    ch->note_edit_mode = TRUE;
+    ch->desc->pString = pString;
+    //send_to_char( numlineas(*pString), ch );
+
+    return;
+
+}
 
 /*****************************************************************************
  Name:		string_replace
@@ -134,18 +155,37 @@ void string_add( CHAR_DATA *ch, char *argument )
 
         if ( !str_cmp( arg1, ".c" ) )
         {
-            write_to_buffer( ch->desc, "String cleared.\n\r", 0 );
-	    free_string( *ch->desc->pString );
-	    *ch->desc->pString = str_dup( "" );
-/*            **ch->desc->pString = '\0'; */
-            return;
+	    if( ch->note_edit_mode == TRUE )
+	    {
+	        write_to_buffer( ch->desc, "String cleared.\n\r",0);
+	        free_string( ch->pnote->text);
+	        ch->pnote->text = str_dup ( "" );
+	        return;
+	    }
+	    else
+	    {
+                write_to_buffer( ch->desc, "String cleared.\n\r", 0 );
+	        free_string( *ch->desc->pString );
+	        *ch->desc->pString = str_dup( "" );
+/*              **ch->desc->pString = '\0'; */
+                return;
+	    }
         }
 
         if ( !str_cmp( arg1, ".s" ) )
         {
-            write_to_buffer( ch->desc, "String so far:\n\r", 0 );
-            write_to_buffer( ch->desc, numlineas(*ch->desc->pString), 0 );
-            return;
+            if ( ch->note_edit_mode == TRUE )
+	    {
+	        write_to_buffer( ch->desc, "String so far:\n\r", 0);
+	        write_to_buffer( ch->desc, numlineas(ch->pnote->text), 0 );
+	        return;
+            }
+	    else
+	    {
+	        write_to_buffer( ch->desc, "String so far:\n\r", 0 );
+                write_to_buffer( ch->desc, numlineas(*ch->desc->pString), 0 );
+                return;
+	    }
         }
 
         if ( !str_cmp( arg1, ".r" ) )
@@ -153,65 +193,119 @@ void string_add( CHAR_DATA *ch, char *argument )
             if ( arg2[0] == '\0' )
             {
                 write_to_buffer( ch->desc,
-                    "usage:  .r \"old string\" \"new string\"\n\r", 0 );
+                "usage:  .r \"old string\" \"new string\"\n\r", 0 );
                 return;
-            }
-
-            *ch->desc->pString =
-                string_replace( *ch->desc->pString, arg2, arg3 );
-            sprintf( buf, "'%s' replaced with '%s'.\n\r", arg2, arg3 );
-            write_to_buffer( ch->desc, buf, 0 );
-            return;
+	    }
+	
+	    if( ch->note_edit_mode == TRUE )
+	    {
+	        ch->pnote->text =
+	        string_replace( ch->pnote->text, arg2, arg3 );
+	        sprintf( buf, "'%s' replaced with '%s'.\n\r", arg2, arg3 );
+	        write_to_buffer( ch->desc, buf, 0 );
+	        return;
+	    }
+	    else
+	    {
+	        *ch->desc->pString =
+	        string_replace( *ch->desc->pString, arg2, arg3 );
+	        sprintf( buf, "'%s' replaced with '%s'.\n\r", arg2, arg3 );
+	        write_to_buffer( ch->desc, buf, 0 );
+	        return;
+	    }
         }
 
         if ( !str_cmp( arg1, ".f" ) )
         {
-            *ch->desc->pString = format_string( *ch->desc->pString );
-            write_to_buffer(ch->desc, "String formatted.\n\r", 0 );
-            return;
+            if ( ch->note_edit_mode == TRUE )
+	    {
+	        ch->pnote->text = format_string( ch->pnote->text );
+                write_to_buffer(ch->desc, "String formatted.\n\r", 0 );
+	        return;
+	    }
+	    else
+            {
+                *ch->desc->pString = format_string( *ch->desc->pString );
+                write_to_buffer(ch->desc, "String formatted.\n\r", 0 );
+                return;
+            }
         }
         
-	if ( !str_cmp( arg1, ".ld" ) )
-	{
-		*ch->desc->pString = linedel( *ch->desc->pString, atoi(arg2) );
-		write_to_buffer( ch->desc, "Line deleted.\n\r", 0 );
-		return;
-	}
+        if ( !str_cmp( arg1, ".ld" ) )
+        {
+            if ( ch->note_edit_mode == TRUE )
+	    {
+	        ch->pnote->text = linedel( ch->pnote->text, atoi(arg2) );
+	        write_to_buffer( ch->desc, "Line deleted.\n\r", 0 );
+	        return;
+	    }
+	    else
+	    {
+	        *ch->desc->pString = linedel( *ch->desc->pString, atoi(arg2) );
+	        write_to_buffer( ch->desc, "Line deleted.\n\r", 0 );
+	        return;
+	    }
+        }
 
-	if ( !str_cmp( arg1, ".li" ) )
-	{
-		if ( strlen( *ch->desc->pString ) + strlen( tmparg3 ) >= ( MAX_STRING_LENGTH - 4 ) )
-		{
-			write_to_buffer( ch->desc, "Line replaced.\n\r", 0 );
-			return;
-		}
+        if ( !str_cmp( arg1, ".li" ) )
+        {
+            if ( ch->note_edit_mode == TRUE )
+	    {
+                if ( strlen( ch->pnote->text ) + strlen( tmparg3 ) >= ( MAX_STRING_LENGTH - 4 ) )
+                {
+                    write_to_buffer( ch->desc, "Line replaced.\n\r", 0 );
+                    return;
+                }
 
-		*ch->desc->pString = lineadd( *ch->desc->pString, tmparg3, atoi(arg2));
-		write_to_buffer( ch->desc, "Linea inserted.\n\r", 0 );
-		return;
-	}
+	        ch->pnote->text = lineadd( ch->pnote->text, tmparg3, atoi(arg2));
+	        write_to_buffer( ch->desc, "Linea inserted.\n\r", 0 );
+	        return;
+	    }
+	    else
+	    {
+	        if ( strlen( *ch->desc->pString ) + strlen( tmparg3 ) >= ( MAX_STRING_LENGTH - 4 ) )
+	        {
+	            write_to_buffer( ch->desc, "Line replaced.\n\r", 0 );
+	            return;
+	        }
 
-	if ( !str_cmp( arg1, ".lr" ) )
-	{
-		*ch->desc->pString = linedel( *ch->desc->pString, atoi(arg2) );
-		*ch->desc->pString = lineadd( *ch->desc->pString, tmparg3, atoi(arg2) );
-		write_to_buffer( ch->desc, "Line replaced.\n\r", 0 );
-		return;
-	}
+	        *ch->desc->pString = lineadd( *ch->desc->pString, tmparg3, atoi(arg2));
+	        write_to_buffer( ch->desc, "Linea inserted.\n\r", 0 );
+	        return;
+	    }
+        }
+
+        if ( !str_cmp( arg1, ".lr" ) )
+        {
+            if ( ch->note_edit_mode == TRUE )
+	    {
+	        ch->pnote->text = linedel( ch->pnote->text, atoi(arg2) );
+                ch->pnote->text = lineadd( ch->pnote->text, tmparg3, atoi(arg2) );
+                write_to_buffer( ch->desc, "Line replaced.\n\r", 0 );
+                return;
+	    }
+	    else
+	    {
+	        *ch->desc->pString = linedel( *ch->desc->pString, atoi(arg2) );
+	        *ch->desc->pString = lineadd( *ch->desc->pString, tmparg3, atoi(arg2) );
+	        write_to_buffer( ch->desc, "Line replaced.\n\r", 0 );
+	        return;
+	    }
+        }
 
         if ( !str_cmp( arg1, ".h" ) )
         {
             write_to_buffer( ch->desc,  "Sedit help (commands on blank line):   \n\r"
-					".r 'old' 'new'   - replace a substring \n\r"
-            				"                   (requires '', \"\") \n\r"
-            				".h               - get help (this info)\n\r"
-            				".s               - show string so far  \n\r"
-            				".f               - (word wrap) string  \n\r"
-            				".c               - clear string so far \n\r"
-	    				".ld <num>        - deletes line <num>\n\r"
-	    				".li <num> <txt>  - inserts a line <num> text <txt>\n\r"
-	    				".lr <num> <txt>  - replaces line <num> con <txt>\n\r"
-            				"@                - end string          \n\r", 0 );
+				        ".r 'old' 'new'   - replace a substring \n\r"
+            		                "                   (requires '', \"\") \n\r"
+            			        ".h               - get help (this info)\n\r"
+            			        ".s               - show string so far  \n\r"
+            			        ".f               - (word wrap) string  \n\r"
+            			        ".c               - clear string so far \n\r"
+	    			        ".ld <num>        - deletes line <num>\n\r"
+	    			        ".li <num> <txt>  - inserts a line <num> text <txt>\n\r"
+	    			        ".lr <num> <txt>  - replaces line <num> con <txt>\n\r"
+            			        "@                - end string          \n\r", 0 );
             return;
         }
             
@@ -222,7 +316,15 @@ void string_add( CHAR_DATA *ch, char *argument )
 
     if ( *argument == '@' )
     {
-        ch->desc->pString = NULL;
+        if(ch->note_edit_mode == TRUE)
+        {
+            ch->note_edit_mode = FALSE;
+	    ch->desc->pString = NULL;
+        }
+        else
+        {
+           ch->desc->pString = NULL; 
+        }
 
 	switch(ch->desc->editor)
 	{
@@ -259,28 +361,69 @@ void string_add( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-    strcpy( buf, *ch->desc->pString );
-
-    /*
-     * Truncate strings to MAX_STRING_LENGTH.
-     * --------------------------------------
-     */
-    if ( strlen( buf ) + strlen( argument ) >= ( MAX_STRING_LENGTH - 4 ) )
+    if(ch->note_edit_mode != TRUE)
+    {    
+        strcpy( buf, *ch->desc->pString);
+    }
+    else
     {
-        write_to_buffer( ch->desc, "String too long, last line skipped.\n\r", 0 );
-
-	/* Force character out of editing mode. */
-        ch->desc->pString = NULL;
-        return;
+        strcpy( buf, ch->pnote->text );
     }
 
-    strcat( buf, argument );
-    strcat( buf, "\n\r" );
-    free_string( *ch->desc->pString );
-    *ch->desc->pString = str_dup( buf );
-
+    if(ch->note_edit_mode != TRUE)
+    {
+    //    strcpy( buf, *ch->desc->pString);
+	
+        /*
+	 * Truncate strings to MAX_STRING_LENGTH.
+	 * --------------------------------------
+	 */
+        if ( strlen( buf ) + strlen( argument ) >= ( MAX_STRING_LENGTH - 4 ) )
+	{
+	    write_to_buffer( ch->desc, "String too long, last line skipped.\n\r", 0 );
+	
+	    /* Force character out of editing mode. */
+	    ch->desc->pString = NULL;
+	    return;
+        }
+	
+	strcat( buf, argument );
+	strcat( buf, "\n\r" );
+	free_string( *ch->desc->pString );
+	*ch->desc->pString = str_dup( buf );
+        return;
+    }
+    
+    if(ch->note_edit_mode == TRUE)
+    {
+        //    strcpy( buf, ch->pnote->text );
+		    
+        /*
+        * Truncate strings to MAX_STRING_LENGTH.
+        * --------------------------------------
+        */
+	if ( strlen( buf ) + strlen( argument ) >= ( MAX_STRING_LENGTH - 4 ) )
+	{
+	    write_to_buffer( ch->desc, "String too long, last line skipped.\n\r", 0 );
+		
+            /* Force character out of editing mode. */
+	    ch->note_edit_mode = FALSE;
+	    ch->desc->pString = NULL;
+	    return;
+	}
+	
+	strcat( buf, argument );
+	strcat( buf, "\n\r" );
+	free_string( ch->pnote->text );
+	ch->pnote->text = str_dup( buf );
+//	ch->note_edit_mode = FALSE;
+        return;
+    }
+    
     return;
+
 }
+
 
 
 

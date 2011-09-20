@@ -645,6 +645,7 @@ struct	note_data
 {
     NOTE_DATA *	next;
     bool 	valid;
+    bool	note_editor;
     sh_int	type;
     char *	sender;
     char *	date;
@@ -1610,6 +1611,7 @@ struct	char_data
     PC_DATA *		pcdata;
     GEN_DATA *		gen_data;
     bool		valid;
+    bool		note_edit_mode;
     char *		name;
     long		id;
     sh_int		version;
@@ -2672,6 +2674,7 @@ void	update_handler	args( ( void ) );
 
 /* string.c */
 void	string_edit	args( ( CHAR_DATA *ch, char **pString ) );
+void    note_string_edit args( ( CHAR_DATA *ch, char **pString) );
 void    string_append   args( ( CHAR_DATA *ch, char **pString ) );
 char *	string_replace	args( ( char * orig, char * old, char * new ) );
 void    string_add      args( ( CHAR_DATA *ch, char *argument ) );
