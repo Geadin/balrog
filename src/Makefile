@@ -1,5 +1,5 @@
 CC      = gcc
-PROF    = 
+PROF    = -O 
 NOCRYPT =
 C_FLAGS =  -Wall -ggdb $(PROF) $(NOCRYPT)
 L_FLAGS =  $(PROF) -lcrypt
