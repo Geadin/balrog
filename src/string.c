@@ -97,7 +97,7 @@ void note_string_edit( CHAR_DATA *ch, char **pString)
 
     ch->note_edit_mode = TRUE;
     ch->desc->pString = pString;
-    //send_to_char( numlineas(*pString), ch );
+    send_to_char( numlineas(ch->pnote->text), ch );
 
     return;
 
