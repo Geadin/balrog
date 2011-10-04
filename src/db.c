@@ -1194,13 +1194,22 @@ void load_rooms( FILE *fp )
 		{
 		case 1: pexit->exit_info = EX_ISDOOR;               
 			pexit->rs_flags  = EX_ISDOOR;		     break;
-		case 2: pexit->exit_info = EX_ISDOOR | EX_PICKPROOF;
-			pexit->rs_flags  = EX_ISDOOR | EX_PICKPROOF; break;
-		case 3: pexit->exit_info = EX_ISDOOR | EX_NOPASS;    
-			pexit->rs_flags  = EX_ISDOOR | EX_NOPASS;    break;
-		case 4: pexit->exit_info = EX_ISDOOR|EX_NOPASS|EX_PICKPROOF;
-			pexit->rs_flags  = EX_ISDOOR|EX_NOPASS|EX_PICKPROOF;
-			break;
+		case 2: pexit->exit_info = EX_ISDOOR|EX_CLOSED;
+			pexit->rs_flags  = EX_ISDOOR|EX_CLOSED; break;
+		case 3: pexit->exit_info = EX_ISDOOR|EX_CLOSED|EX_LOCKED;    
+			pexit->rs_flags  = EX_ISDOOR|EX_CLOSED|EX_LOCKED; break;
+		case 4: pexit->exit_info = EX_ISDOOR|EX_CLOSED|EX_LOCKED|EX_PICKPROOF;
+			pexit->rs_flags  = EX_ISDOOR|EX_CLOSED|EX_LOCKED|EX_PICKPROOF; break;
+		case 5: pexit->exit_info = EX_ISDOOR|EX_CLOSED|EX_LOCKED|EX_PICKPROOF|EX_HIDDEN;
+			pexit->rs_flags  = EX_ISDOOR|EX_CLOSED|EX_LOCKED|EX_PICKPROOF|EX_HIDDEN: break;
+		case 6: pexit->exit_info = EX_HIDDEN;
+			pexit->rs_flags  = EX_HIDDEN; break;
+		case 7: pexit->exit_info = EX_HIDDEN|EX_ISDOOR;
+			pexit->rs_flags  = EX_HIDDEN|EX_ISDOOR; break;
+		case 8: pexit->exit_info = EX_HIDDEN|EX_ISDOOR|EX_CLOSED;
+			pexit->rs_flags  = EX_HIDDEN|EX_ISDOOR|EX_CLOSED; break;
+		case 9: pexit->exit_info = EX_HIDDEN|EX_ISDOOR|EX_CLOSED|EX_LOCKED;
+			pexit->rs_flags  = EX_HIDDEN|EX_ISDOOR|EX_CLOSED|EX_LOCKED; break;
 		}
 
 		pRoomIndex->exit[door]	= pexit;

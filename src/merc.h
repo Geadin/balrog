@@ -1322,6 +1322,7 @@ struct	kill_data
 #define EX_INFURIATING		      (J)
 #define EX_NOCLOSE		      (K)
 #define EX_NOLOCK		      (L)
+#define EX_HIDDEN		      (M)
 
 
 

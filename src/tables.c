@@ -371,6 +371,7 @@ const struct flag_type exit_flags[] =
     {	"infuriating",		EX_INFURIATING,		TRUE	},
     {	"noclose",		EX_NOCLOSE,		TRUE	},
     {	"nolock",		EX_NOLOCK,		TRUE	},
+    {   "hidden",		EX_HIDDEN,		TRUE    },
     {	NULL,			0,			0	}
 };
 
