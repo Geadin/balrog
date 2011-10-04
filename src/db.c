@@ -1193,7 +1193,7 @@ void load_rooms( FILE *fp )
 		switch ( locks )
 		{
 		case 1: pexit->exit_info = EX_ISDOOR;               
-			pexit->rs_flags  = EX_ISDOOR;		     break;
+			pexit->rs_flags  = EX_ISDOOR; break;
 		case 2: pexit->exit_info = EX_ISDOOR|EX_CLOSED;
 			pexit->rs_flags  = EX_ISDOOR|EX_CLOSED; break;
 		case 3: pexit->exit_info = EX_ISDOOR|EX_CLOSED|EX_LOCKED;    
@@ -1201,7 +1201,7 @@ void load_rooms( FILE *fp )
 		case 4: pexit->exit_info = EX_ISDOOR|EX_CLOSED|EX_LOCKED|EX_PICKPROOF;
 			pexit->rs_flags  = EX_ISDOOR|EX_CLOSED|EX_LOCKED|EX_PICKPROOF; break;
 		case 5: pexit->exit_info = EX_ISDOOR|EX_CLOSED|EX_LOCKED|EX_PICKPROOF|EX_HIDDEN;
-			pexit->rs_flags  = EX_ISDOOR|EX_CLOSED|EX_LOCKED|EX_PICKPROOF|EX_HIDDEN: break;
+			pexit->rs_flags  = EX_ISDOOR|EX_CLOSED|EX_LOCKED|EX_PICKPROOF|EX_HIDDEN; break;
 		case 6: pexit->exit_info = EX_HIDDEN;
 			pexit->rs_flags  = EX_HIDDEN; break;
 		case 7: pexit->exit_info = EX_HIDDEN|EX_ISDOOR;
