@@ -2513,7 +2513,7 @@ void do_report( CHAR_DATA *ch, char *argument )
     char buf[MAX_INPUT_LENGTH];
 
     sprintf( buf,
-	"You say 'I have %d/%d hp %d/%d mana %d/%d mv %d xp.'\n\r",
+	"{6You say '{7I have %d/%d hp %d/%d mana %d/%d mv %d xp.{6'\n\r{x",
 	ch->hit,  ch->max_hit,
 	ch->mana, ch->max_mana,
 	ch->move, ch->max_move,
@@ -2521,7 +2521,7 @@ void do_report( CHAR_DATA *ch, char *argument )
 
     send_to_char( buf, ch );
 
-    sprintf( buf, "$n says 'I have %d/%d hp %d/%d mana %d/%d mv %d xp.'",
+    sprintf( buf, "{6$n says '{7I have %d/%d hp %d/%d mana %d/%d mv %d xp.{6'{x",
 	ch->hit,  ch->max_hit,
 	ch->mana, ch->max_mana,
 	ch->move, ch->max_move,
