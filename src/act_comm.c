@@ -1004,7 +1004,7 @@ void do_yell( CHAR_DATA *ch, char *argument )
     }
 
 
-    act("You yell '\e[0;36m$t{x'",ch,argument,NULL,TO_CHAR);
+    act("You yell '{c$t{x'",ch,argument,NULL,TO_CHAR);
     for ( d = descriptor_list; d != NULL; d = d->next )
     {
 	if ( d->connected == CON_PLAYING
@@ -1013,7 +1013,7 @@ void do_yell( CHAR_DATA *ch, char *argument )
 	&&   d->character->in_room->area == ch->in_room->area 
         &&   !IS_SET(d->character->comm,COMM_QUIET) )
 	{
-	    act("$n yells '\e[0;36m$t{x'",ch,argument,d->character,TO_VICT);
+	    act("$n yells '{c$t{x'",ch,argument,d->character,TO_VICT);
 	}
     }
 
