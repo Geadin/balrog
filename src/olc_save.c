@@ -601,76 +601,7 @@ void save_rooms( FILE *fp, AREA_DATA *pArea )
 */
 
 /* #### CLEAN THIS UP, MAKE IT IT'S OWN FUNCTION */
-			if ( IS_SET(pExit->rs_flags, EX_ISDOOR))
-			{
-				locks = 1;
-			}
-
-			if ( IS_SET(pExit->rs_flags, EX_ISDOOR)
-			&&   IS_SET(pExit->rs_flags, EX_CLOSED) )
-			{
-				locks = 2;
-			}
-
-			if ( IS_SET(pExit->rs_flags, EX_ISDOOR)
-			&&   IS_SET(pExit->rs_flags, EX_CLOSED)
-			&&   IS_SET(pExit->rs_flags, EX_LOCKED) )
-			{
-				locks = 3;
-			}
-
-			if ( IS_SET(pExit->rs_flags, EX_ISDOOR)
-                        &&   IS_SET(pExit->rs_flags, EX_CLOSED)
-                        &&   IS_SET(pExit->rs_flags, EX_LOCKED)
-			&&   IS_SET(pExit->rs_flags, EX_PICKPROOF) )
-			{
-				locks = 4;
-			}
-			
-			if ( IS_SET(pExit->rs_flags, EX_ISDOOR)
-                        &&   IS_SET(pExit->rs_flags, EX_CLOSED)
-                        &&   IS_SET(pExit->rs_flags, EX_LOCKED)
-                        &&   IS_SET(pExit->rs_flags, EX_PICKPROOF)
-			&&   IS_SET(pExit->rs_flags, EX_HIDDEN) )
-			{
-				locks = 5;
-			}
-			
-			if ( IS_SET(pExit->rs_flags, EX_HIDDEN)
-			&&   !IS_SET(pExit->rs_flags, EX_ISDOOR)
-			&&   !IS_SET(pExit->rs_flags, EX_CLOSED)
-			&&   !IS_SET(pExit->rs_flags, EX_LOCKED)
-			&&   !IS_SET(pExit->rs_flags, EX_PICKPROOF) )
-			{
-				locks = 6;
-			}
-
-			if ( IS_SET(pExit->rs_flags, EX_HIDDEN)
-			&&   IS_SET(pExit->rs_flags, EX_ISDOOR)
-			&&   !IS_SET(pExit->rs_flags, EX_CLOSED)
-                        &&   !IS_SET(pExit->rs_flags, EX_LOCKED)
-                        &&   !IS_SET(pExit->rs_flags, EX_PICKPROOF) )
-			{
-				locks = 7;
-			}
-
-			if ( IS_SET(pExit->rs_flags, EX_HIDDEN)
-                        &&   IS_SET(pExit->rs_flags, EX_ISDOOR)
-			&&   IS_SET(pExit->rs_flags, EX_CLOSED)
-                        &&   !IS_SET(pExit->rs_flags, EX_LOCKED)
-                        &&   !IS_SET(pExit->rs_flags, EX_PICKPROOF) )
-			{
-				locks = 8;
-			}
-			
-			if ( IS_SET(pExit->rs_flags, EX_HIDDEN)
-                        &&   IS_SET(pExit->rs_flags, EX_ISDOOR)
-                        &&   IS_SET(pExit->rs_flags, EX_CLOSED)
-                        &&   IS_SET(pExit->rs_flags, EX_LOCKED)
-                        &&   !IS_SET(pExit->rs_flags, EX_PICKPROOF) )
-			{
-				locks = 9;
-			}
+			locks = pExit->rs_flags;
 /*  ### END OF FUNCTION TO MAKE */
 	
                         fprintf( fp, "D%d\n",      pExit->orig_door );
