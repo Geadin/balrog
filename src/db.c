@@ -1195,6 +1195,34 @@ void load_rooms( FILE *fp )
 
 		pRoomIndex->exit[door]	= pexit;
 		top_exit++;
+
+/*  uncomment the switch below to convert a rom area to a balrog area, make sure to comment out pexit->exit_flags and
+ *  rs_flags above. after loading and saving the area, comment the switch and uncomment the exit_fags and rs_flags above. 
+ *  This will convert the rom area to a balrog area. 
+ */
+
+/*                switch ( locks )
+                {
+                case 1: pexit->exit_info = EX_ISDOOR;
+                        pexit->rs_flags  = EX_ISDOOR; break;
+                case 2: pexit->exit_info = EX_ISDOOR|EX_CLOSED;
+                        pexit->rs_flags  = EX_ISDOOR|EX_CLOSED; break;
+                case 3: pexit->exit_info = EX_ISDOOR|EX_CLOSED|EX_LOCKED;
+                        pexit->rs_flags  = EX_ISDOOR|EX_CLOSED|EX_LOCKED; break;
+                case 4: pexit->exit_info = EX_ISDOOR|EX_CLOSED|EX_LOCKED|EX_PICKPROOF;
+                        pexit->rs_flags  = EX_ISDOOR|EX_CLOSED|EX_LOCKED|EX_PICKPROOF; break;
+                case 5: pexit->exit_info = EX_ISDOOR|EX_CLOSED|EX_LOCKED|EX_PICKPROOF|EX_HIDDEN;
+                        pexit->rs_flags  = EX_ISDOOR|EX_CLOSED|EX_LOCKED|EX_PICKPROOF|EX_HIDDEN; break;
+                case 6: pexit->exit_info = EX_HIDDEN;
+                        pexit->rs_flags  = EX_HIDDEN; break;
+                case 7: pexit->exit_info = EX_HIDDEN|EX_ISDOOR;
+                        pexit->rs_flags  = EX_HIDDEN|EX_ISDOOR; break;
+                case 8: pexit->exit_info = EX_HIDDEN|EX_ISDOOR|EX_CLOSED;
+                        pexit->rs_flags  = EX_HIDDEN|EX_ISDOOR|EX_CLOSED; break;
+                case 9: pexit->exit_info = EX_HIDDEN|EX_ISDOOR|EX_CLOSED|EX_LOCKED;
+                        pexit->rs_flags  = EX_HIDDEN|EX_ISDOOR|EX_CLOSED|EX_LOCKED; break;
+                }
+*/
 	    }
 	    else if ( letter == 'E' )
 	    {
