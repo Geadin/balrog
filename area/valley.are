@@ -1150,7 +1150,7 @@ D0
 You see the building.
 ~
 door~
-1 -1 7834
+7 -1 7834
 D1
 You see the trail around the building.
 ~
@@ -1260,7 +1260,7 @@ D2
 The exit is to the south.
 ~
 door~
-1 -1 7829
+7 -1 7829
 S
 #7835
 The Kitchen~
@@ -1463,12 +1463,12 @@ D0
 You see another room.
 ~
 door~
-1 -1 7847
+7 -1 7847
 D1
 You see another room.
 ~
 door~
-2 7804 7846
+4103 7804 7846
 S
 #7846
 The Storage Room~
@@ -1480,12 +1480,12 @@ D0
 You see another room.
 ~
 door~
-2 7804 7848
+4103 7804 7848
 D3
 You see another room.
 ~
 door~
-2 7804 7845
+4103 7804 7845
 S
 #7847
 The Sleeping Quarters~
@@ -1499,12 +1499,12 @@ D1
 You see another room.
 ~
 door~
-1 -1 7848
+7 -1 7848
 D2
 You see another room.
 ~
 door~
-1 -1 7845
+7 -1 7845
 S
 #7848
 Study~
@@ -1519,12 +1519,12 @@ D2
 You see another room.
 ~
 door~
-2 7804 7846
+4103 7804 7846
 D3
 You see another room.
 ~
 door~
-1 -1 7847
+7 -1 7847
 D5
 You see the first floor.
 ~
@@ -2000,7 +2000,7 @@ D3
 You see the small shack.
 ~
 door~
-1 -1 7878
+7 -1 7878
 S
 #7871
 The Small Valley~
@@ -2139,12 +2139,12 @@ D1
 You see the valley outside.
 ~
 door~
-1 -1 7870
+7 -1 7870
 D5
 You see a trap door!
 ~
 trap door~
-1 -1 7879
+7 -1 7879
 S
 #7879
 Beneath the Small Shack~
@@ -2162,7 +2162,7 @@ D4
 Back to known territory!
 ~
 trap door~
-1 -1 7878
+7 -1 7878
 S
 #7880
 The Den of the Pyrohydra~
@@ -2180,12 +2180,12 @@ D1
 You see breaks in the charred rock to the east.
 ~
 secret~
-2 7805 7882
+4103 7805 7882
 D3
 You see a door to the west.
 ~
 door~
-2 7805 7881
+4103 7805 7881
 S
 #7881
 The Workroom~
@@ -2199,7 +2199,7 @@ D 0
 D1
 ~
 door~
-2 7805 7880
+4103 7805 7880
 S
 #7882
 The Storage Room~
@@ -2211,7 +2211,7 @@ D 0
 D3
 ~
 secret door~
-2 7805 7880
+4103 7805 7880
 S
 #7883
 WAY Far Down into the Valley~
@@ -2238,24 +2238,24 @@ S
 
 
 #RESETS
-D 0 7829 0 1
-D 0 7834 2 1
-D 0 7845 0 1
-D 0 7845 1 2
-D 0 7846 0 2
-D 0 7846 3 2
-D 0 7847 1 1
-D 0 7847 2 1
-D 0 7848 2 2
-D 0 7848 3 1
-D 0 7870 3 1
-D 0 7878 1 1
-D 0 7878 5 1
-D 0 7879 4 1
-D 0 7880 1 2
-D 0 7880 3 2
-D 0 7881 1 2
-D 0 7882 3 2
+D 0 7829 0 7
+D 0 7834 2 7
+D 0 7845 0 7
+D 0 7845 1 4103
+D 0 7846 0 4103
+D 0 7846 3 4103
+D 0 7847 1 7
+D 0 7847 2 7
+D 0 7848 2 4103
+D 0 7848 3 7
+D 0 7870 3 7
+D 0 7878 1 7
+D 0 7878 5 7
+D 0 7879 4 7
+D 0 7880 1 4103
+D 0 7880 3 4103
+D 0 7881 1 4103
+D 0 7882 3 4103
 M 0 7801 6 7805 1
 E 0 7802 0 16
 M 0 7800 6 7806 1

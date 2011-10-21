@@ -537,7 +537,7 @@ D1
 The tree door is carved beautifully.
 ~
 door~
-1 -1 6153
+7 -1 6153
 D3
 the bend on the trail.
 ~
@@ -555,7 +555,7 @@ D3
 the door is carved beautifully.
 ~
 door~
-1 -1 6152
+7 -1 6152
 D5
 The steps look appear like they will hold your weight.
 ~
@@ -916,7 +916,7 @@ D0
 The wooden door is quite sturdy but does not appear to be equipped with a lock.
 ~
 door wooden~
-1 -1 6010
+7 -1 6010
 D2
 The small path leads south through the dense forest.
 ~
@@ -2557,9 +2557,9 @@ S
 
 
 #RESETS
-D 0 6152 1 1
-D 0 6153 3 1
-D 0 6009 0 1
+D 0 6152 1 7
+D 0 6153 3 7
+D 0 6009 0 7
 M 0 6116 1 6155 1
 E 0 6155 0 16
 O 0 6011 0 6006

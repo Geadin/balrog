@@ -1900,26 +1900,26 @@ sounds of moaning and growling come from all directions.
 ~
 0
 AN 3
-D3
-The shadows cloud your vision.
-~
-~
-0 -1 1303
-D2
-The shadows cloud your vision.
-~
-~
-0 -1 1304
 D0
 The shadows cloud your vision.
 ~
 ~
 0 -1 1307
+D2
+The shadows cloud your vision.
+~
+~
+0 -1 1304
 D1
 The shadows cloud your vision.
 ~
 ~
 0 -1 1302
+D3
+The shadows cloud your vision.
+~
+~
+0 -1 1303
 S
 #1302
 The Shadow Grove~
@@ -1935,11 +1935,6 @@ You see a small clearing in the shadows.
 ~
 ~
 0 -1 1311
-D1
-The shadows cloud your vision.
-~
-~
-0 -1 1303
 D2
 The shadows cloud your vision.
 ~
@@ -1950,6 +1945,11 @@ The shadows cloud your vision.
 ~
 ~
 0 -1 1301
+D1
+The shadows cloud your vision.
+~
+~
+0 -1 1303
 S
 #1303
 The Shadow Grove~
@@ -1960,26 +1960,26 @@ sounds of moaning and growling come from all directions.
 ~
 0
 AN 3
-D3
-The shadows cloud your vision.
-~
-~
-0 -1 1302
 D1
 The shadows cloud your vision.
 ~
 ~
 0 -1 1301
-D2
+D3
 The shadows cloud your vision.
 ~
 ~
-0 -1 1306
+0 -1 1302
 D0
 The shadows cloud your vision.
 ~
 ~
 0 -1 1309
+D2
+The shadows cloud your vision.
+~
+~
+0 -1 1306
 S
 #1304
 The Shadow Grove~
@@ -1990,6 +1990,16 @@ sounds of moaning and growling come from all directions.
 ~
 0
 AN 3
+D1
+The shadows cloud your vision.
+~
+~
+0 -1 1305
+D0
+The shadows cloud your vision.
+~
+~
+0 -1 1301
 D2
 The shadows cloud your vision.
 ~
@@ -2000,16 +2010,6 @@ Dark gates loom in the mist.
 ~
 ~
 0 -1 2201
-D1
-The shadows cloud your vision.
-~
-~
-0 -1 1305
-D0
-The shadows cloud your vision.
-~
-~
-0 -1 1301
 S
 #1305
 The Shadow Grove~
@@ -2020,26 +2020,26 @@ sounds of moaning and growling come from all directions.
 ~
 0
 AN 3
-D1
-The shadows cloud your vision.
-~
-~
-0 -1 1306
 D2
 The shadows cloud your vision.
 ~
 ~
 0 -1 1308
-D0
-The shadows cloud your vision.
-~
-~
-0 -1 1302
 D3
 The shadows cloud your vision.
 ~
 ~
 0 -1 1304
+D1
+The shadows cloud your vision.
+~
+~
+0 -1 1306
+D0
+The shadows cloud your vision.
+~
+~
+0 -1 1302
 S
 #1306
 The Shadow Grove~
@@ -2050,26 +2050,26 @@ sounds of moaning and growling come from all directions.
 ~
 0
 AN 3
-D3
-The shadows cloud your vision.
-~
-~
-0 -1 1305
-D2
-The shadows cloud your vision.
-~
-~
-0 -1 1309
-D1
-You see a shadowy tavern.
-~
-~
-0 -1 9301
 D0
 The shadows cloud your vision.
 ~
 ~
 0 -1 1303
+D3
+The shadows cloud your vision.
+~
+~
+0 -1 1305
+D1
+You see a shadowy tavern.
+~
+~
+0 -1 9301
+D2
+The shadows cloud your vision.
+~
+~
+0 -1 1309
 S
 #1307
 The Shadow Grove~
@@ -2080,21 +2080,21 @@ sounds of moaning and growling come from all directions.
 ~
 0
 AN 3
-D3
-The shadows cloud your vision.
-~
-~
-0 -1 1309
-D0
-The shadows cloud your vision.
-~
-~
-0 -1 1304
 D2
 The shadows cloud your vision.
 ~
 ~
 0 -1 1301
+D0
+The shadows cloud your vision.
+~
+~
+0 -1 1304
+D3
+The shadows cloud your vision.
+~
+~
+0 -1 1309
 D1
 The shadows cloud your vision.
 ~
@@ -2110,6 +2110,16 @@ sounds of moaning and growling come from all directions.
 ~
 0
 AN 3
+D2
+The shadows cloud your vision.
+~
+~
+0 -1 1300
+D1
+The shadows cloud your vision.
+~
+~
+0 -1 1309
 D0
 The shadows cloud your vision.
 ~
@@ -2120,16 +2130,6 @@ The shadows cloud your vision.
 ~
 ~
 0 -1 1307
-D1
-The shadows cloud your vision.
-~
-~
-0 -1 1309
-D2
-The shadows cloud your vision.
-~
-~
-0 -1 1300
 S
 #1309
 The Shadow Grove~
@@ -2140,26 +2140,26 @@ sounds of moaning and growling come from all directions.
 ~
 0
 AN 3
-D0
-The shadows cloud your vision.
-~
-~
-0 -1 1306
 D2
 The shadows cloud your vision.
 ~
 ~
 0 -1 1303
-D3
-The shadows cloud your vision.
-~
-~
-0 -1 1308
 D1
 The shadows cloud your vision.
 ~
 ~
 0 -1 1307
+D3
+The shadows cloud your vision.
+~
+~
+0 -1 1308
+D0
+The shadows cloud your vision.
+~
+~
+0 -1 1306
 S
 #1311
 A small clearing~
@@ -2289,7 +2289,7 @@ D1
 D3
 ~
 door wooden~
-1 -1 1320
+7 -1 1320
 S
 #1317
 Dark Hallway~
@@ -2307,7 +2307,7 @@ D2
 D5
 ~
 trapdoor~
-1 -1 1321
+7 -1 1321
 S
 #1318
 Mages Tavern~
@@ -2352,7 +2352,7 @@ D 0
 D1
 ~
 door wooden~
-1 -1 1316
+7 -1 1316
 S
 #1321
 Below the trapdoor~
@@ -2366,7 +2366,7 @@ AD 0
 D4
 ~
 trapdoor~
-1 -1 1317
+7 -1 1317
 D5
 ~
 ~
@@ -2414,7 +2414,7 @@ AD 0
 D0
 ~
 oak door~
-2 1323 1327
+4103 1323 1327
 D2
 ~
 ~
@@ -2484,7 +2484,7 @@ AD 0
 D2
 ~
 oak door~
-2 -1 1323
+4103 -1 1323
 S
 #1328
 The Jailor's office~
@@ -2520,7 +2520,7 @@ D 0
 D0
 ~
 door wooden~
-1 -1 1332
+7 -1 1332
 D1
 ~
 ~
@@ -2528,7 +2528,7 @@ D1
 D2
 ~
 door wooden~
-1 -1 1333
+7 -1 1333
 D3
 ~
 ~
@@ -2544,15 +2544,15 @@ D 0
 D0
 ~
 door wooden~
-1 -1 1334
+7 -1 1334
 D1
 ~
 door wooden~
-1 -1 1336
+7 -1 1336
 D2
 ~
 door wooden~
-1 -1 1335
+7 -1 1335
 D3
 ~
 ~
@@ -2569,7 +2569,7 @@ AD 0
 D2
 ~
 door wooden~
-1 -1 1330
+7 -1 1330
 S
 #1333
 A broom closet~
@@ -2582,7 +2582,7 @@ AD 0
 D0
 ~
 door wooden~
-1 -1 1330
+7 -1 1330
 S
 #1334
 A hallway~
@@ -2602,11 +2602,11 @@ D0
 D1
 ~
 door wooden~
-1 -1 1337
+7 -1 1337
 D2
 ~
 door wooden~
-1 -1 1331
+7 -1 1331
 S
 #1335
 Guardians chamber~
@@ -2619,7 +2619,7 @@ D 0
 D0
 ~
 door wooden~
-1 -1 1331
+7 -1 1331
 S
 #1336
 A guest bedroom~
@@ -2637,7 +2637,7 @@ Why, someone seems to be looking back at you from the other side!
 D3
 ~
 door wooden~
-1 -1 1331
+7 -1 1331
 S
 #1337
 A guest bedroom~
@@ -2651,7 +2651,7 @@ D 0
 D3
 ~
 door wooden~
-1 -1 1334
+7 -1 1334
 S
 #1338
 A hallway~
@@ -2664,7 +2664,7 @@ D 0
 D1
 ~
 door wooden~
-1 -1 1339
+7 -1 1339
 D2
 ~
 ~
@@ -2686,7 +2686,7 @@ AD 0
 D3
 ~
 door charred~
-1 -1 1338
+7 -1 1338
 S
 #1340
 A hallway~
@@ -2700,7 +2700,7 @@ D 0
 D0
 ~
 door oak~
-1 -1 1342
+7 -1 1342
 D1
 Faint moonlight can be seen to the east
 ~
@@ -2745,7 +2745,7 @@ D 0
 D2
 ~
 door oak~
-1 -1 1340
+7 -1 1340
 D3
 ~
 ~
@@ -2762,7 +2762,7 @@ D 0
 D0
 ~
 door oak~
-1 -1 1344
+7 -1 1344
 D1
 ~
 ~
@@ -2787,7 +2787,7 @@ D1
 D2
 ~
 door oak~
-1 -1 1343
+7 -1 1343
 S
 #1345
 A hallway~
@@ -2801,7 +2801,7 @@ D0
 A flash of blue light momentarily lights up the doors outline
 ~
 door oak~
-1 -1 1346
+7 -1 1346
 D1
 ~
 ~
@@ -2823,7 +2823,7 @@ D 0
 D2
 ~
 door oak~
-1 -1 1345
+7 -1 1345
 S
 #1347
 A bend in the hallway~
@@ -2861,7 +2861,7 @@ D2
 D3
 ~
 door metal~
-1 -1 1349
+7 -1 1349
 S
 #1349
 A classroom~
@@ -2875,7 +2875,7 @@ D 0
 D1
 ~
 door metal~
-1 -1 1348
+7 -1 1348
 S
 #1350
 A hallway~
@@ -2895,7 +2895,7 @@ D2
 D3
 ~
 door metal~
-1 -1 1352
+7 -1 1352
 S
 #1351
 A hallway~
@@ -2915,7 +2915,7 @@ D2
 D3
 ~
 door metal~
-1 -1 1354
+7 -1 1354
 S
 #1352
 An empty classroom~
@@ -2929,7 +2929,7 @@ D 0
 D1
 ~
 door metal~
-1 -1 1350
+7 -1 1350
 S
 #1353
 A bend in the hallway~
@@ -2959,7 +2959,7 @@ D 0
 D1
 ~
 door metal~
-1 -1 1351
+7 -1 1351
 S
 #1355
 A hallway~
@@ -2976,7 +2976,7 @@ D1
 D2
 ~
 door sturdy iron~
-1 -1 1357
+7 -1 1357
 D3
 ~
 ~
@@ -2997,7 +2997,7 @@ D1
 D2
 ~
 door large oaken~
-1 -1 1359
+7 -1 1359
 D3
 ~
 ~
@@ -3014,7 +3014,7 @@ D 0
 D0
 ~
 door sturdy iron~
-1 -1 1355
+7 -1 1355
 S
 #1358
 A hallway~
@@ -3031,7 +3031,7 @@ D1
 D2
 ~
 door small~
-1 -1 1361
+7 -1 1361
 D3
 ~
 ~
@@ -3047,7 +3047,7 @@ D 0
 D0
 ~
 door~
-1 -1 1356
+7 -1 1356
 S
 #1360
 A bend in the hallway~
@@ -3078,7 +3078,7 @@ D 0
 D0
 ~
 door small~
-1 -1 1358
+7 -1 1358
 S
 #1362
 A hallway~
@@ -3095,7 +3095,7 @@ D0
 D1
 ~
 door~
-1 -1 1364
+7 -1 1364
 D2
 ~
 ~
@@ -3116,7 +3116,7 @@ D0
 D1
 ~
 door wooden~
-1 -1 1365
+7 -1 1365
 D2
 ~
 ~
@@ -3134,7 +3134,7 @@ D 0
 D3
 ~
 door wooden~
-1 -1 1362
+7 -1 1362
 S
 #1365
 A bedroom~
@@ -3149,7 +3149,7 @@ D 0
 D3
 ~
 door wooden~
-1 -1 1363
+7 -1 1363
 S
 #1366
 A hallway~
@@ -3166,7 +3166,7 @@ D0
 D1
 ~
 door glass~
-1 -1 1367
+7 -1 1367
 D2
 ~
 ~
@@ -3185,7 +3185,7 @@ D 0
 D3
 ~
 door glass~
-1 -1 1366
+7 -1 1366
 S
 #1368
 Below the stairs~
@@ -3235,7 +3235,7 @@ D 0
 D0
 ~
 door wooden~
-1 -1 1371
+7 -1 1371
 D1
 ~
 ~
@@ -3257,11 +3257,11 @@ D 0
 D2
 ~
 door wooden~
-1 -1 1370
+7 -1 1370
 D3
 ~
 curtain~
-1 -1 1373
+7 -1 1373
 S
 #1372
 A hallway~
@@ -3291,7 +3291,7 @@ D 0
 D1
 ~
 curtain~
-1 -1 1371
+7 -1 1371
 S
 #1374
 A hallway~
@@ -3305,7 +3305,7 @@ D0
 A dark room can be seen through the half opened door
 ~
 door wooden~
-1 -1 1375
+7 -1 1375
 D1
 ~
 ~
@@ -3325,7 +3325,7 @@ AD 0
 D2
 ~
 door wooden~
-1 -1 1374
+7 -1 1374
 S
 #1376
 A bend in the hallway~
@@ -3363,7 +3363,7 @@ D2
 D3
 ~
 door iron~
-1 -1 1379
+7 -1 1379
 S
 #1378
 A hallway~
@@ -3384,7 +3384,7 @@ D2
 D3
 ~
 door iron~
-1 -1 1381
+7 -1 1381
 S
 #1379
 A store room~
@@ -3398,7 +3398,7 @@ D 0
 D1
 ~
 door iron~
-1 -1 1377
+7 -1 1377
 D2
 ~
 ~
@@ -3437,15 +3437,15 @@ D0
 D1
 ~
 door iron~
-1 -1 1378
+7 -1 1378
 D2
 ~
 door ~
-1 -1 1382
+7 -1 1382
 D4
 ~
 vent~
-1 -1 1412
+7 -1 1412
 S
 #1382
 The master Enchanter's chamber~
@@ -3459,7 +3459,7 @@ D 0
 D0
 ~
 door~
-1 -1 1381
+7 -1 1381
 S
 #1383
 A bend in the hallway~
@@ -3493,7 +3493,7 @@ D1
 D2
 ~
 door steel~
-1 -1 1386
+7 -1 1386
 D3
 ~
 ~
@@ -3527,7 +3527,7 @@ D 0
 D0
 ~
 door steel~
-1 -1 1384
+7 -1 1384
 D1
 ~
 ~
@@ -3548,7 +3548,7 @@ D1
 D2
 ~
 door steel~
-1 -1 1390
+7 -1 1390
 D3
 ~
 ~
@@ -3595,7 +3595,7 @@ D 0
 D0
 ~
 door steel~
-1 -1 1387
+7 -1 1387
 D2
 The energy field crackles and glows, nothing seems to be beyond.
 ~
@@ -3617,7 +3617,7 @@ D0
 D1
 ~
 door bronze~
-1 -1 1394
+7 -1 1394
 D2
 ~
 ~
@@ -3635,22 +3635,22 @@ D5
 ~
 ~
 0 0 3460
-D2
-~
-~
-0 0 9141
 D4
 ~
 ~
 0 0 938
-D1
+D2
 ~
 ~
-0 0 5113
+0 0 9141
 D3
 ~
 ~
 0 0 7428
+D1
+~
+~
+0 0 5113
 S
 #1393
 A hallway~
@@ -3683,7 +3683,7 @@ CD 0
 D3
 ~
 door bronze~
-1 -1 1391
+7 -1 1391
 S
 #1395
 The charm master's chamber~
@@ -3697,11 +3697,11 @@ D 0
 D0
 ~
 cage bars~
-1 -1 1397
+7 -1 1397
 D3
 ~
 door bronze~
-1 -1 1393
+7 -1 1393
 S
 #1396
 A hallway~
@@ -3730,7 +3730,7 @@ D 0
 D2
 ~
 cage bars~
-1 -1 1395
+7 -1 1395
 S
 #1398
 The end of the hallway~
@@ -3777,7 +3777,7 @@ D 0
 D0
 ~
 door silver~
-1 -1 1401
+7 -1 1401
 D1
 ~
 ~
@@ -3799,11 +3799,11 @@ D 0
 D2
 ~
 door silver~
-1 -1 1400
+7 -1 1400
 D3
 ~
 door silver~
-1 -1 1402
+7 -1 1402
 S
 #1402
 The master spellbinder's chamber~
@@ -3817,11 +3817,11 @@ D 0
 D1
 ~
 door silver~
-1 -1 1401
+7 -1 1401
 D3
 ~
 door silver~
-1 -1 1403
+7 -1 1403
 S
 #1403
 The spellbinder's cache~
@@ -3834,11 +3834,11 @@ D 0
 D1
 ~
 door silver~
-1 -1 1402
+7 -1 1402
 D2
 ~
 door silver~
-1 -1 1405
+7 -1 1405
 S
 #1404
 A hallway~
@@ -3867,7 +3867,7 @@ D 0
 D0
 ~
 door silver~
-1 -1 1403
+7 -1 1403
 D1
 ~
 ~
@@ -3929,7 +3929,7 @@ D2
 D3
 ~
 door rusty~
-1 -1 1409
+7 -1 1409
 S
 #1409
 The golem master's workshop~
@@ -3946,7 +3946,7 @@ D0
 D1
 ~
 door rusty~
-1 -1 1408
+7 -1 1408
 D2
 ~
 ~
@@ -3954,7 +3954,7 @@ D2
 D5
 ~
 trapdoor~
-1 -1 1412
+7 -1 1412
 S
 #1410
 A store room~
@@ -3990,11 +3990,11 @@ AD 0
 D4
 ~
 trapdoor~
-1 -1 1409
+7 -1 1409
 D5
 ~
 vent~
-1 -1 1381
+7 -1 1381
 S
 #1413
 A hallway~
@@ -4060,7 +4060,7 @@ D1
 D2
 ~
 door emerald~
-1 -1 1417
+7 -1 1417
 D3
 ~
 ~
@@ -4078,7 +4078,7 @@ D 0
 D0
 ~
 door emerald~
-1 -1 1416
+7 -1 1416
 D3
 ~
 ~
@@ -4113,7 +4113,7 @@ D1
 D2
 ~
 door glass~
-1 -1 1420
+7 -1 1420
 D3
 ~
 ~
@@ -4130,7 +4130,7 @@ CDJ 0
 D0
 ~
 door glass~
-1 -1 1419
+7 -1 1419
 S
 #1421
 A bend in the hallway~
@@ -4164,7 +4164,7 @@ D0
 D1
 ~
 door black~
-1 -1 1423
+7 -1 1423
 D2
 ~
 ~
@@ -4185,7 +4185,7 @@ D0
 D3
 ~
 door black~
-1 -1 1422
+7 -1 1422
 S
 #1424
 A dark room~
@@ -4379,7 +4379,7 @@ D 0
 D1
 ~
 door black~
-1 -1 1435
+7 -1 1435
 D3
 ~
 ~
@@ -4400,7 +4400,7 @@ AD 0
 D3
 ~
 door black~
-1 -1 1434
+7 -1 1434
 S
 #1436
 A corridor~
@@ -4772,7 +4772,7 @@ D0
 D2
 ~
 door grey~
-1 -1 1453
+7 -1 1453
 S
 #1453
 The antechamber~
@@ -4787,7 +4787,7 @@ D 0
 D0
 ~
 door grey~
-1 -1 1452
+7 -1 1452
 D2
 ~
 ~
@@ -4905,7 +4905,7 @@ AD 0
 D1
 ~
 door obsidian~
-1 -1 1461
+7 -1 1461
 D3
 ~
 ~
@@ -4935,7 +4935,7 @@ D2
 D3
 ~
 door obsidian~
-1 -1 1460
+7 -1 1460
 S
 #1462
 It is very dark here...~
@@ -5011,7 +5011,7 @@ D1
 D3
 ~
 door ivory~
-1 -1 1467
+7 -1 1467
 S
 #1467
 An antechamber~
@@ -5025,7 +5025,7 @@ D 0
 D1
 ~
 door ivory~
-1 -1 1466
+7 -1 1466
 D3
 ~
 ~
@@ -5108,7 +5108,7 @@ D 0
 D0
 ~
 door metal grey~
-1 1473 1474
+7 1473 1474
 D2
 ~
 ~
@@ -5126,11 +5126,11 @@ D 0
 D0
 ~
 door obsidian black~
-1 1474 1475
+7 1474 1475
 D2
 ~
 door metal grey~
-1 1473 1473
+7 1473 1473
 S
 #1475
 A wide hallway~
@@ -5144,11 +5144,11 @@ D 0
 D0
 ~
 door ivory white~
-1 1475 1476
+7 1475 1476
 D2
 ~
 door obsidian black~
-1 1474 1474
+7 1474 1474
 S
 #1476
 The entranceway~
@@ -5166,7 +5166,7 @@ D0
 D2
 ~
 door white ivory~
-1 1475 1475
+7 1475 1475
 S
 #1477
 The audience chamber~
@@ -5240,7 +5240,7 @@ D 0
 D1
 ~
 door secret~
-1 -1 1481
+7 -1 1481
 D2
 ~
 ~
@@ -5248,7 +5248,7 @@ D2
 D3
 ~
 door secret~
-1 -1 1482
+7 -1 1482
 S
 #1481
 The treasury~
@@ -5260,7 +5260,7 @@ D 0
 D3
 ~
 door secret~
-1 -1 1480
+7 -1 1480
 S
 #1482
 A passage~
@@ -5366,108 +5366,108 @@ S
 
 
 #RESETS
-D 0 1316 3 1
-D 0 1317 5 1
-D 0 1320 1 1
-D 0 1321 4 1
-D 0 1323 0 2
-D 0 1327 2 2
-D 0 1330 0 1
-D 0 1330 2 1
-D 0 1331 0 1
-D 0 1331 1 1
-D 0 1331 2 1
-D 0 1332 2 1
-D 0 1333 0 1
-D 0 1334 1 1
-D 0 1334 2 1
-D 0 1335 0 1
-D 0 1336 3 1
-D 0 1337 3 1
-D 0 1338 1 1
-D 0 1339 3 1
-D 0 1340 0 1
-D 0 1342 2 1
-D 0 1343 0 1
-D 0 1344 2 1
-D 0 1345 0 1
-D 0 1346 2 1
-D 0 1348 3 1
-D 0 1349 1 1
-D 0 1350 3 1
-D 0 1351 3 1
-D 0 1352 1 1
-D 0 1354 1 1
-D 0 1355 2 1
-D 0 1356 2 1
-D 0 1357 0 1
-D 0 1358 2 1
-D 0 1359 0 1
-D 0 1361 0 1
-D 0 1362 1 1
-D 0 1363 1 1
-D 0 1364 3 1
-D 0 1365 3 1
-D 0 1366 1 1
-D 0 1367 3 1
-D 0 1370 0 1
-D 0 1371 2 1
-D 0 1371 3 1
-D 0 1373 1 1
-D 0 1374 0 1
-D 0 1375 2 1
-D 0 1377 3 1
-D 0 1378 3 1
-D 0 1379 1 1
-D 0 1381 1 1
-D 0 1381 2 1
-D 0 1381 4 1
-D 0 1382 0 1
-D 0 1384 2 1
-D 0 1386 0 1
-D 0 1387 2 1
-D 0 1390 0 1
-D 0 1391 1 1
-D 0 1394 3 1
-D 0 1395 0 1
-D 0 1395 3 1
-D 0 1397 2 1
-D 0 1400 0 1
-D 0 1401 2 1
-D 0 1401 3 1
-D 0 1402 1 1
-D 0 1402 3 1
-D 0 1403 1 1
-D 0 1403 2 1
-D 0 1405 0 1
-D 0 1408 3 1
-D 0 1409 1 1
-D 0 1409 5 1
-D 0 1412 4 1
-D 0 1412 5 1
-D 0 1416 2 1
-D 0 1417 0 1
-D 0 1419 2 1
-D 0 1420 0 1
-D 0 1422 1 1
-D 0 1423 3 1
-D 0 1434 1 1
-D 0 1435 3 1
-D 0 1452 2 1
-D 0 1453 0 1
-D 0 1460 1 1
-D 0 1461 3 1
-D 0 1466 3 1
-D 0 1467 1 1
-D 0 1473 0 1
-D 0 1474 0 1
-D 0 1474 2 1
-D 0 1475 0 1
-D 0 1475 2 1
-D 0 1476 2 1
-D 0 1480 1 1
-D 0 1480 3 1
-D 0 1481 3 1
+D 0 1316 3 7
+D 0 1317 5 7
+D 0 1320 1 7
+D 0 1321 4 7
+D 0 1323 0 4103
+D 0 1327 2 4103
+D 0 1330 0 7
+D 0 1330 2 7
+D 0 1331 0 7
+D 0 1331 1 7
+D 0 1331 2 7
+D 0 1332 2 7
+D 0 1333 0 7
+D 0 1334 1 7
+D 0 1334 2 7
+D 0 1335 0 7
+D 0 1336 3 7
+D 0 1337 3 7
+D 0 1338 1 7
+D 0 1339 3 7
+D 0 1340 0 7
+D 0 1342 2 7
+D 0 1343 0 7
+D 0 1344 2 7
+D 0 1345 0 7
+D 0 1346 2 7
+D 0 1348 3 7
+D 0 1349 1 7
+D 0 1350 3 7
+D 0 1351 3 7
+D 0 1352 1 7
+D 0 1354 1 7
+D 0 1355 2 7
+D 0 1356 2 7
+D 0 1357 0 7
+D 0 1358 2 7
+D 0 1359 0 7
+D 0 1361 0 7
+D 0 1362 1 7
+D 0 1363 1 7
+D 0 1364 3 7
+D 0 1365 3 7
+D 0 1366 1 7
+D 0 1367 3 7
+D 0 1370 0 7
+D 0 1371 2 7
+D 0 1371 3 7
+D 0 1373 1 7
+D 0 1374 0 7
+D 0 1375 2 7
+D 0 1377 3 7
+D 0 1378 3 7
+D 0 1379 1 7
+D 0 1381 1 7
+D 0 1381 2 7
+D 0 1381 4 7
+D 0 1382 0 7
+D 0 1384 2 7
+D 0 1386 0 7
+D 0 1387 2 7
+D 0 1390 0 7
+D 0 1391 1 7
+D 0 1394 3 7
+D 0 1395 0 7
+D 0 1395 3 7
+D 0 1397 2 7
+D 0 1400 0 7
+D 0 1401 2 7
+D 0 1401 3 7
+D 0 1402 1 7
+D 0 1402 3 7
+D 0 1403 1 7
+D 0 1403 2 7
+D 0 1405 0 7
+D 0 1408 3 7
+D 0 1409 1 7
+D 0 1409 5 7
+D 0 1412 4 7
+D 0 1412 5 7
+D 0 1416 2 7
+D 0 1417 0 7
+D 0 1419 2 7
+D 0 1420 0 7
+D 0 1422 1 7
+D 0 1423 3 7
+D 0 1434 1 7
+D 0 1435 3 7
+D 0 1452 2 7
+D 0 1453 0 7
+D 0 1460 1 7
+D 0 1461 3 7
+D 0 1466 3 7
+D 0 1467 1 7
+D 0 1473 0 7
+D 0 1474 0 7
+D 0 1474 2 7
+D 0 1475 0 7
+D 0 1475 2 7
+D 0 1476 2 7
+D 0 1480 1 7
+D 0 1480 3 7
+D 0 1481 3 7
 R 0 1301 4
 R 0 1302 4
 M 0 1300 6 1302 2

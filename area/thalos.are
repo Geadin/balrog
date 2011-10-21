@@ -1897,7 +1897,7 @@ D3
 You see a dark fox hole.
 ~
 hole fox~
-1 -1 5268
+7 -1 5268
 D4
 ~
 ~
@@ -1920,7 +1920,7 @@ D1
 You see the exit from here!
 ~
 fox hole~
-1 -1 5267
+7 -1 5267
 D2
 You see more of the cave.
 ~
@@ -1979,7 +1979,7 @@ D5
 You see nothing on the floor except skeletons.
 ~
 secret~
-1 -1 5100
+7 -1 5100
 S
 #5271
 The Valley in the dark dwarf forest~
@@ -2199,9 +2199,9 @@ S
 
 
 #RESETS
-D 0 5267 3 1
-D 0 5268 1 1
-D 0 5270 5 1
+D 0 5267 3 7
+D 0 5268 1 7
+D 0 5270 5 7
 M 0 5201 12 5204 1
 E 0 5251 0 17
 E 0 5252 0 16

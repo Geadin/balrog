@@ -666,7 +666,7 @@ D2
 You see the one way door into the Arena of Mud School.
 ~
 door~
-1 -1 3744
+7 -1 3744
 D5
 You see the Temple of Midgaard.
 ~
@@ -1093,7 +1093,7 @@ D1
 You see the next station of Mud School.
 ~
 door~
-1 -1 3719
+7 -1 3719
 D2
 You see the Shop.
 ~
@@ -1155,12 +1155,12 @@ D1
 You see the next station of Mud School.
 ~
 door~
-2 3714 3721
+4103 3714 3721
 D3
 You see the room you just came from.
 ~
 door~
-1 -1 3717
+7 -1 3717
 S
 #3720
 The Darkened Room~
@@ -1205,7 +1205,7 @@ D0
 You see the Arena ahead.
 ~
 gate~
-1 -1 3722
+7 -1 3722
 S
 #3722
 South Wall of Arena~
@@ -1566,7 +1566,7 @@ D5
 You see a dark murky dungeon below.
 ~
 grate~
-1 -1 3748
+7 -1 3748
 S
 #3735
 Arena~
@@ -1921,7 +1921,7 @@ D4
 You see safety!
 ~
 grate~
-1 -1 3734
+7 -1 3734
 S
 #3749
 The North West Corner of the Dungeon~
@@ -2198,13 +2198,13 @@ S
 
 
 #RESETS
-D 0 3700 2 1
-D 0 3717 1 1
-D 0 3719 1 2
-D 0 3719 3 1
-D 0 3721 0 1
-D 0 3734 5 1
-D 0 3748 4 1
+D 0 3700 2 7
+D 0 3717 1 7
+D 0 3719 1 4103
+D 0 3719 3 7
+D 0 3721 0 7
+D 0 3734 5 7
+D 0 3748 4 7
 M 0 3700 1 3701 1
 M 0 3701 1 3710 1
 M 0 3707 1 3712 1

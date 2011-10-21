@@ -823,7 +823,7 @@ AD 1
 D1
 ~
 wooden door east~
-1 -1 2125
+7 -1 2125
 S
 #2125
 Bronze Dragon Street at Warehouse~
@@ -843,7 +843,7 @@ D2
 D3
 ~
 wooden door west~
-1 -1 2124
+7 -1 2124
 S
 #2126
 Yellow Dragon Road~
@@ -1311,7 +1311,7 @@ AD 1
 D1
 ~
 rusted door metal~
-1 -1 2149
+7 -1 2149
 S
 #2149
 Ajax Avenue at chapel~
@@ -1332,7 +1332,7 @@ D2
 D3
 ~
 rusted door metal~
-1 -1 2148
+7 -1 2148
 S
 #2150
 First intersection of Hector and Achilles~
@@ -1752,10 +1752,10 @@ S
 
 
 #RESETS
-D 0 2124 1 1
-D 0 2125 3 1
-D 0 2148 1 1
-D 0 2149 3 1
+D 0 2124 1 7
+D 0 2125 3 7
+D 0 2148 1 7
+D 0 2149 3 7
 M 0 2109 3 2102 1
 E 0 2105 0 17
 E 0 2114 0 5

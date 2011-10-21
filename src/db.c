@@ -1053,7 +1053,9 @@ void load_resets( FILE *fp )
 
 		switch ( pReset->arg3 )
 		{
-			default: bug( "Load_resets: 'D': bad 'locks': %d." , pReset->arg3); break;
+			default: //bug( "Load_resets: 'D': bad 'locks': %d." , pReset->arg3); break;
+				 pexit->rs_flags = pReset->arg3;
+				 pexit->exit_info = pReset->arg3;break;
 			case 0: break;
 			case 1: SET_BIT( pexit->rs_flags, EX_CLOSED );
 				SET_BIT( pexit->exit_info, EX_CLOSED ); break;

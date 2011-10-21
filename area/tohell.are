@@ -1729,7 +1729,7 @@ D3
 You see the Gates of Hell
 ~
 gates~
-1 -1 10405
+7 -1 10405
 S
 #10405
 Gateway to Hell~
@@ -1755,7 +1755,7 @@ D1
 The Gates of Hell
 ~
 gates~
-1 -1 10404
+7 -1 10404
 D2
 It's too smoky to see.
 ~
@@ -2043,7 +2043,7 @@ D1
 You see a bedroom door.
 ~
 door~
-1 -1 10417
+7 -1 10417
 D2
 It's too smoky to see.
 ~
@@ -2069,7 +2069,7 @@ D3
 You see a bedroom door.
 ~
 door~
-1 -1 10416
+7 -1 10416
 S
 #10418
 Ancient Shrine~
@@ -2399,7 +2399,7 @@ D2
 You see bars
 ~
 bars~
-1 -1 10443
+7 -1 10443
 S
 #10434
 Stone Hall~
@@ -2441,7 +2441,7 @@ D2
 You see the steel bars of a cell.
 ~
 bars~
-1 -1 10445
+7 -1 10445
 D3
 It is too dark to see.
 ~
@@ -2481,7 +2481,7 @@ D2
 You see bars
 ~
 bars~
-1 -1 10447
+7 -1 10447
 S
 #10438
 Stone Hall~
@@ -2518,12 +2518,12 @@ D1
 You see the steel bars to a cell.
 ~
 bars~
-1 -1 10440
+7 -1 10440
 D2
 You see the steel bars to a cell.
 ~
 bars~
-1 -1 10449
+7 -1 10449
 D3
 It is too dark to see.
 ~
@@ -2547,7 +2547,7 @@ D3
 You see bars
 ~
 bars~
-1 -1 10439
+7 -1 10439
 S
 #10441
 Hidden Room~
@@ -2599,7 +2599,7 @@ D0
 You see bars to a cell.
 ~
 bars~
-1 -1 10433
+7 -1 10433
 D1
 It's too dark to see.
 ~
@@ -2644,7 +2644,7 @@ D0
 You see bars
 ~
 bars~
-1 -1 10435
+7 -1 10435
 S
 #10446
 Stone Hall~
@@ -2682,7 +2682,7 @@ D0
 You see bars to a cell.
 ~
 bars~
-1 -1 10437
+7 -1 10437
 D1
 It's too dark to see.
 ~
@@ -2727,7 +2727,7 @@ D0
 You see bars
 ~
 bars~
-1 -1 10439
+7 -1 10439
 S
 #10450
 Hot Stairs~
@@ -2791,7 +2791,7 @@ D2
 You see the Foreman's office.
 ~
 ~
-1 -1 10462
+7 -1 10462
 D5
 You see a dark stairway down.
 ~
@@ -3009,7 +3009,7 @@ D0
 You see the door to the office.
 ~
 ~
-1 -1 10452
+7 -1 10452
 S
 #10463
 Cold Stairway~
@@ -3292,7 +3292,7 @@ D1
 You see a freezer door.
 ~
 freezer~
-1 -1 10476
+7 -1 10476
 D2
 You see more of the Meat locker
 ~
@@ -3324,7 +3324,7 @@ D3
 You see a freezer door.
 ~
 door freezer~
-1 -1 10475
+7 -1 10475
 S
 #10477
 Penguin Room~
@@ -3380,7 +3380,7 @@ D1
 You see a steel door.
 ~
 door steel~
-1 -1 10480
+7 -1 10480
 D2
 You see lots of ice-cream machines.
 ~
@@ -3411,7 +3411,7 @@ D3
 You see a steel door.
 ~
 door steel~
-1 -1 10479
+7 -1 10479
 S
 #10481
 Refrigerator Room~
@@ -3472,7 +3472,7 @@ D1
 You see a freezer door.
 ~
 door freezer~
-1 -1 10484
+7 -1 10484
 D3
 You see a room of ice.
 ~
@@ -3503,7 +3503,7 @@ D3
 You see a freezer door.
 ~
 door freezer~
-1 -1 10483
+7 -1 10483
 S
 #10485
 Meat Locker~
@@ -3746,7 +3746,7 @@ D1
 You see a stone door.
 ~
 door stone~
-1 -1 10497
+7 -1 10497
 D2
 You see a blackened hall.
 ~
@@ -3771,7 +3771,7 @@ D3
 You see a stone door.
 ~
 door stone~
-1 -1 10496
+7 -1 10496
 S
 #10498
 Blackened Hall~
@@ -3807,7 +3807,7 @@ D1
 You see a glass door.
 ~
 door glass~
-1 -1 10500
+7 -1 10500
 D3
 You see a blackened hall.
 ~
@@ -3845,12 +3845,12 @@ D2
 You see a metal door.
 ~
 door metal~
-1 -1 10510
+7 -1 10510
 D3
 You see a glass door.
 ~
 door glass~
-1 -1 10499
+7 -1 10499
 D5
 You see a stairway down.
 ~
@@ -4069,7 +4069,7 @@ D0
 You see a steel door.
 ~
 door steel~
-1 -1 10500
+7 -1 10500
 D2
 You see a maintenance walkway.
 ~
@@ -4628,7 +4628,7 @@ D1
 You see a maintenance hatch.
 ~
 hatch maintenance reactor core~
-1 -1 10538
+7 -1 10538
 S
 #10538
 Reactor Room Floor~
@@ -4650,7 +4650,7 @@ D3
 You see a reactor core maintence hatch.
 ~
 hatch maintenance reactor core~
-1 -1 10537
+7 -1 10537
 S
 #10539
 Secondary Control Room~
@@ -4749,36 +4749,36 @@ S
 
 
 #RESETS
-D 0 10404 3 1
-D 0 10405 1 1
-D 0 10416 1 1
-D 0 10417 3 1
-D 0 10433 2 1
-D 0 10435 2 1
-D 0 10437 2 1
-D 0 10439 1 1
-D 0 10439 2 1
-D 0 10440 3 1
-D 0 10443 0 1
-D 0 10445 0 1
-D 0 10447 0 1
-D 0 10449 0 1
-D 0 10452 2 1
-D 0 10462 0 1
-D 0 10475 1 1
-D 0 10476 3 1
-D 0 10479 1 1
-D 0 10480 3 1
-D 0 10483 1 1
-D 0 10484 3 1
-D 0 10496 1 1
-D 0 10497 3 1
-D 0 10499 1 1
-D 0 10500 2 1
-D 0 10500 3 1
-D 0 10510 0 1
-D 0 10537 1 1
-D 0 10538 3 1
+D 0 10404 3 7
+D 0 10405 1 7
+D 0 10416 1 7
+D 0 10417 3 7
+D 0 10433 2 7
+D 0 10435 2 7
+D 0 10437 2 7
+D 0 10439 1 7
+D 0 10439 2 7
+D 0 10440 3 7
+D 0 10443 0 7
+D 0 10445 0 7
+D 0 10447 0 7
+D 0 10449 0 7
+D 0 10452 2 7
+D 0 10462 0 7
+D 0 10475 1 7
+D 0 10476 3 7
+D 0 10479 1 7
+D 0 10480 3 7
+D 0 10483 1 7
+D 0 10484 3 7
+D 0 10496 1 7
+D 0 10497 3 7
+D 0 10499 1 7
+D 0 10500 2 7
+D 0 10500 3 7
+D 0 10510 0 7
+D 0 10537 1 7
+D 0 10538 3 7
 M 0 10401 2 10405 2
 E 0 10401 0 16
 M 0 10401 2 10405 2

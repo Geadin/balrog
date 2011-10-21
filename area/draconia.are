@@ -707,7 +707,7 @@ D0
 You see a large steel gate.  Beyond is the Foyer of the Tower.
 ~
 gate steel~
-2 2231 2202
+4103 2231 2202
 D1
 The shadows cloud your vision.
 ~
@@ -890,7 +890,7 @@ D3
 You see a ruby door!
 ~
 door ruby~
-2 2232 2218
+4103 2232 2218
 S
 #2210
 The Second Floor~
@@ -1041,7 +1041,7 @@ D1
 You see the Treasure Vault.
 ~
 door ruby~
-2 2232 2209
+4103 2232 2209
 D3
 You see the Crypt.
 ~
@@ -1112,7 +1112,7 @@ You see the Crypt.
 D3
 ~
 coffin~
-2 0 2232
+4103 0 2232
 S
 #2223
 Entrance to the Great Hall~
@@ -1234,7 +1234,7 @@ D1
 You see a great golden door.
 ~
 door great golden~
-2 2299 2230
+4103 2299 2230
 D3
 You see the hall.
 ~
@@ -1251,7 +1251,7 @@ D3
 You see a great golden door.
 ~
 door golden great~
-2 2299 2229
+4103 2299 2229
 S
 #2231
 The End...~
@@ -1524,7 +1524,7 @@ D0
 The platinum door
 ~
 door platinum~
-2 2241 2231
+4103 2241 2231
 D5
 The path continues
 ~
@@ -1573,13 +1573,13 @@ S
 
 
 #RESETS
-D 0 2201 0 2
-D 0 2209 3 2
-D 0 2218 1 2
-D 0 2222 3 2
-D 0 2229 1 2
-D 0 2230 3 2
-D 0 2243 0 2
+D 0 2201 0 4103
+D 0 2209 3 4103
+D 0 2218 1 4103
+D 0 2222 3 4103
+D 0 2229 1 4103
+D 0 2230 3 4103
+D 0 2243 0 4103
 M 0 2200 12 2201 1
 G 0 2231 0
 M 0 2200 12 2202 1

@@ -907,7 +907,7 @@ gate~
 D4
 A small hole in the ceiling leads up into darkness.~
 door~
-1 -1 5270
+7 -1 5270
 S
 #5101
 City street~
@@ -1238,7 +1238,7 @@ S
 
 
 #RESETS
-D 0 5100 4 1
+D 0 5100 4 7
 M 0 5105 3 5120 1
 E 0 5104 0 16
 E 0 5110 0 17

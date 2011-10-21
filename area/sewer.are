@@ -872,12 +872,12 @@ D2
 You look back through the door into the lair.
 ~
 door wooden~
-1 -1 7202
+7 -1 7202
 D3
 You see the treasury.
 ~
 door stone~
-2 7205 7200
+4103 7205 7200
 S
 #7202
 The Lair~
@@ -904,7 +904,7 @@ D0
 You can see the inner lair.
 ~
 door wooden~
-1 -1 7201
+7 -1 7201
 D1
 You see another part of the lair.
 ~
@@ -1101,7 +1101,7 @@ D0
 You can see the lair.
 ~
 door wooden~
-1 -1 7204
+7 -1 7204
 D1
 You see a crawlway.
 ~
@@ -1583,7 +1583,7 @@ small round door~
 D4
 ~
 secret door~
-1 -1 7116
+7 -1 7116
 S
 #7281
 The corridor.~
@@ -1890,7 +1890,7 @@ D2
 You can see an opening behind the stone.
 ~
 flat round stone~
-1 -1 7405
+7 -1 7405
 D3
 ~
 ~
@@ -1919,12 +1919,12 @@ D0
 You see a round stone door.
 ~
 round stone door~
-1 -1 7404
+7 -1 7404
 D2
 You see a grey block.
 ~
 grey block~
-1 -1 7406
+7 -1 7406
 S
 #7406
 The mudhole~
@@ -1938,7 +1938,7 @@ D0
 You can see nothing at all.
 ~
 grey block~
-1 -1 7405
+7 -1 7405
 D3
 ~
 ~
@@ -2122,7 +2122,7 @@ D0
 You see a primitive picture
 ~
 sun~
-1 -1 7416
+7 -1 7416
 D3
 ~
 ~
@@ -2142,7 +2142,7 @@ you can see a picture with some persons crawling around a
 huge moon.
 ~
 door picture sun moon~
-1 -1 7415
+7 -1 7415
 S
 #7417
 The square lair~
@@ -2188,7 +2188,7 @@ D1
 You see a wooden door
 ~
 wooden door~
-1 -1 7421
+7 -1 7421
 D2
 another part of the lair.
 ~
@@ -2281,7 +2281,7 @@ D3
 You can see a wooden door.
 ~
 wooden door~
-1 -1 7418
+7 -1 7418
 S
 #7422
 North tunnel~
@@ -2351,7 +2351,7 @@ D1
 you see nothing special.
 ~
 green head dragon sculpture face~
-1 -1 7425
+7 -1 7425
 D3
 you see a room far away.
 ~
@@ -2378,7 +2378,7 @@ You can see the outline of a door. Just like in the
 description!
 ~
 door~
-1 -1 7424
+7 -1 7424
 S
 #7426
 The crossing~
@@ -4664,7 +4664,7 @@ The ledge continues west.
 D5
 ~
 secret trapdoor entrance~
-1 -1 7280
+7 -1 7280
 S
 #7117
 The narrow eastern ledge~
@@ -4855,22 +4855,22 @@ S
 
 
 #RESETS
-D 0 7201 2 1
-D 0 7201 3 2
-D 0 7202 0 1
-D 0 7208 0 1
-D 0 7280 4 1
-D 0 7404 2 1
-D 0 7405 0 1
-D 0 7405 2 1
-D 0 7406 0 1
-D 0 7415 0 1
-D 0 7416 2 1
-D 0 7418 1 1
-D 0 7421 3 1
-D 0 7424 1 1
-D 0 7425 3 1
-D 0 7116 5 1
+D 0 7201 2 7
+D 0 7201 3 4103
+D 0 7202 0 7
+D 0 7208 0 7
+D 0 7280 4 7
+D 0 7404 2 7
+D 0 7405 0 7
+D 0 7405 2 7
+D 0 7406 0 7
+D 0 7415 0 7
+D 0 7416 2 7
+D 0 7418 1 7
+D 0 7421 3 7
+D 0 7424 1 7
+D 0 7425 3 7
+D 0 7116 5 7
 O 0 7204 0 7200
 M 0 7200 1 7201 1
 E 0 7200 0 16

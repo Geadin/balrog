@@ -98,7 +98,7 @@ D0
 Alander's workroom is to the north.
 ~
 door~
-1 -1 1209
+7 -1 1209
 D1
 Valhalla continues east.
 ~
@@ -108,7 +108,7 @@ D2
 A sea cave is south of here.
 ~
 door~
-1 -1 1208
+7 -1 1208
 D3
 The entrance to Valhalla is to the west.
 ~
@@ -133,7 +133,7 @@ D0
 Valhalla is to the north.
 ~
 door~
-1 -1 1218
+7 -1 1218
 S
 #1205
 The Eye of the Hurricane~
@@ -305,7 +305,7 @@ D2
 Valhalla is to the south.
 ~
 door~
-1 -1 1217
+7 -1 1217
 S
 #1208
 A Sea Cave~
@@ -323,7 +323,7 @@ D0
 Valhalla lies to the north.
 ~
 door~
-1 -1 1203
+7 -1 1203
 S
 #1209
 The Archmage's Workroom~
@@ -350,7 +350,7 @@ D2
 Valhalla is to the south.
 ~
 door~
-1 -1 1203
+7 -1 1203
 S
 #1210
 Office~
@@ -386,7 +386,7 @@ D0
 Valhalla is to the north
 ~
 door~
-1 -1 1217
+7 -1 1217
 S
 #1211
 Arena of Judgement~
@@ -409,7 +409,7 @@ D2
 Valhalla is to the south.
 ~
 door~
-1 -1 1218
+7 -1 1218
 S
 #1212
 The Realm of the Dead~
@@ -553,7 +553,7 @@ D0
 The Satin Memorial Reading Room is north of here.
 ~
 door~
-1 -1 1207
+7 -1 1207
 D1
 Valhalla continues east.
 ~
@@ -563,7 +563,7 @@ D2
 Bigfoots' room is south of here.
 ~
 door~
-1 -1 1210
+7 -1 1210
 D3
 Valhalla continues west.
 ~
@@ -593,7 +593,7 @@ D0
 Pontius' room is north of here.
 ~
 door~
-1 -1 1211
+7 -1 1211
 D1
 Valhalla continues east.
 ~
@@ -603,7 +603,7 @@ D2
 Priscilla's Pleasure Palace is south of here.
 ~
 door~
-1 -1 1204
+7 -1 1204
 D3
 Valhalla continues west.
 ~
@@ -703,18 +703,18 @@ S
 
 
 #RESETS
-D 0 1203 0 1
-D 0 1203 2 1
-D 0 1204 0 1
-D 0 1207 2 1
-D 0 1208 0 1
-D 0 1209 2 1
-D 0 1210 0 1
-D 0 1211 2 1
-D 0 1217 0 1
-D 0 1217 2 1
-D 0 1218 0 1
-D 0 1218 2 1
+D 0 1203 0 7
+D 0 1203 2 7
+D 0 1204 0 7
+D 0 1207 2 7
+D 0 1208 0 7
+D 0 1209 2 7
+D 0 1210 0 7
+D 0 1211 2 7
+D 0 1217 0 7
+D 0 1217 2 7
+D 0 1218 0 7
+D 0 1218 2 7
 O 0 3135 0 1200
 O 0 3200 0 1200
 M 0 1200 1 1221 1

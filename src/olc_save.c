@@ -696,7 +696,7 @@ void save_door_resets( FILE *fp, AREA_DATA *pArea )
 			fprintf( fp, "D 0 %d %d %d The %s door of %s is %s\n", 
 				pRoomIndex->vnum,
 				pExit->orig_door,
-				IS_SET( pExit->rs_flags, EX_LOCKED) ? 2 : 1,
+				IS_SET( pExit->rs_flags, EX_LOCKED) ? 2 : 1,	
 				dir_name[ pExit->orig_door ],
 				pRoomIndex->name,
 				IS_SET( pExit->rs_flags, EX_LOCKED) ? "closed and locked"
@@ -705,7 +705,8 @@ void save_door_resets( FILE *fp, AREA_DATA *pArea )
 			fprintf( fp, "D 0 %d %d %d\n", 
 				pRoomIndex->vnum,
 				pExit->orig_door,
-				IS_SET( pExit->rs_flags, EX_LOCKED) ? 2 : 1 );
+//				IS_SET( pExit->rs_flags, EX_LOCKED) ? 2 : 1 );
+				pExit->rs_flags);
 #endif
 		}
 	    }

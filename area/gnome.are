@@ -1268,7 +1268,7 @@ D1
 You see a rusty door.
 ~
 rusty door~
-2 1500 1537
+4103 1500 1537
 D4
 You see a small room.
 ~
@@ -1425,7 +1425,7 @@ D3
 You see a decaying door.
 ~
 door~
-2 1501 1546
+4103 1501 1546
 S
 #1546
 A Ladder~
@@ -1437,7 +1437,7 @@ D1
 You see a decaying door.
 ~
 door~
-2 1501 1545
+4103 1501 1545
 D5
 ~
 ~
@@ -1470,14 +1470,14 @@ D1
 ~
 ~
 0 -1 1549
-D3
-~
-~
-0 -1 1551
 D0
 ~
 ~
 0 -1 1547
+D3
+~
+~
+0 -1 1551
 S
 #1549
 A Damp Hallway~
@@ -1550,14 +1550,14 @@ seems to be greater here, as well as your fear.
 ~
 0
 ADN 2
-D0
-~
-~
-0 -1 1552
 D1
 ~
 ~
 0 -1 1554
+D0
+~
+~
+0 -1 1552
 S
 #1554
 A Damp Hallway~
@@ -1566,6 +1566,10 @@ seems to be greater here, as well as your fear.
 ~
 0
 ADN 2
+D0
+~
+~
+0 -1 1556
 D3
 ~
 ~
@@ -1574,10 +1578,6 @@ D1
 ~
 ~
 0 -1 1555
-D0
-~
-~
-0 -1 1556
 S
 #1555
 A Damp Hallway~
@@ -2235,9 +2235,9 @@ S
 
 
 #RESETS
-D 0 1536 1 2
-D 0 1545 3 2
-D 0 1546 1 2
+D 0 1536 1 4103
+D 0 1545 3 4103
+D 0 1546 1 4103
 M 0 1502 3 1503 1
 E 0 1503 0 16
 M 0 1502 3 1505 1

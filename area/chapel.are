@@ -653,11 +653,11 @@ D0
 The chapel door is made of dark wood.
 ~
 door~
-2 -1 3604
+4103 -1 3604
 D5
 ~
 altar~
-2 3430 3421
+4103 3430 3421
 S
 #3408
 Stairwell into Darkness~
@@ -668,7 +668,7 @@ AD 0
 D3
 ~
 door~
-2 3411 3449
+4103 3411 3449
 D5
 ~
 ~
@@ -743,7 +743,7 @@ D2
 A door to the south
 ~
 door~
-1 -1 3413
+7 -1 3413
 S
 #3413
 The Shrine of Shohan~
@@ -758,7 +758,7 @@ AD 0
 D0
 ~
 north~
-1 -1 3412
+7 -1 3412
 D2
 ~
 south~
@@ -884,7 +884,7 @@ D2
 D5
 ~
 staircase~
-1 -1 3416
+7 -1 3416
 S
 #3419
 The Tomb of Cristis~
@@ -963,13 +963,13 @@ D2
 Finely polished oak doors stand to the south.
 ~
 oak~
-1 -1 3422
+7 -1 3422
 D4
 You see a large set of stone stairs leading upwards to a small stone door at
 the top. 
 ~
 stone trapdoor door~
-2 3410 3405
+4103 3410 3405
 S
 #3422
 The Grand Hall of Kings~
@@ -983,7 +983,7 @@ AD 0
 D0
 ~
 oak~
-1 -1 3421
+7 -1 3421
 D1
 ~
 ~
@@ -993,7 +993,7 @@ The door has written above it: 'May all the lands thank Crotus the Victor.
 Without his guidance this kingdom would not have stood.'
 ~
 door~
-1 -1 3423
+7 -1 3423
 D3
 ~
 ~
@@ -1012,7 +1012,7 @@ AD 0
 D0
 ~
 door~
-1 -1 3422
+7 -1 3422
 D2
 ~
 ~
@@ -1078,7 +1078,7 @@ D1
 D2
 ~
 door~
-1 -1 3428
+7 -1 3428
 D3
 ~
 ~
@@ -1096,7 +1096,7 @@ AD 0
 D0
 ~
 door~
-1 -1 3427
+7 -1 3427
 D1
 ~
 ~
@@ -1250,7 +1250,7 @@ AD 0
 D0
 ~
 door~
-1 -1 3409
+7 -1 3409
 D3
 ~
 ~
@@ -1454,7 +1454,7 @@ AD 0
 D1
 ~
 door~
-2 3411 3408
+4103 3411 3408
 D3
 ~
 ~
@@ -1657,7 +1657,7 @@ D5
 A jet black coffin ... who knows what lurks beneath.
 ~
 coffin~
-2 3419 3475
+4103 3419 3475
 S
 #3461
 The Catacombs~
@@ -1719,7 +1719,7 @@ ADN 0
 D1
 There is a secret door here.~
 secret~
-1 -1 3470
+7 -1 3470
 D2
 Too dark to tell.
 ~
@@ -1909,7 +1909,7 @@ AD 0
 D4
 ~
 lid coffin~
-2 3419 3460
+4103 3419 3460
 S
 #0
 
@@ -1935,24 +1935,24 @@ S
 
 
 #RESETS
-D 0 3405 0 2
-D 0 3405 5 2
-D 0 3408 3 2
-D 0 3412 2 1
-D 0 3413 0 1
-D 0 3418 5 1
-D 0 3421 2 1
-D 0 3421 4 2
-D 0 3422 0 1
-D 0 3422 2 1
-D 0 3423 0 1
-D 0 3427 2 1
-D 0 3428 0 1
-D 0 3437 0 1
-D 0 3449 1 2
-D 0 3460 5 2
-D 0 3464 1 1
-D 0 3475 4 2
+D 0 3405 0 4103
+D 0 3405 5 4103
+D 0 3408 3 4103
+D 0 3412 2 7
+D 0 3413 0 7
+D 0 3418 5 7
+D 0 3421 2 7
+D 0 3421 4 4103
+D 0 3422 0 7
+D 0 3422 2 7
+D 0 3423 0 7
+D 0 3427 2 7
+D 0 3428 0 7
+D 0 3437 0 7
+D 0 3449 1 4103
+D 0 3460 5 4103
+D 0 3464 1 7
+D 0 3475 4 4103
 M 0 3405 1 3405 1
 G 0 3430 0
 O 0 3400 0 3405

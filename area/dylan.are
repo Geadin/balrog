@@ -998,7 +998,7 @@ almost see people walking around the temple in the picture.
 D1
 ~
 picture~
-1 -1 3001
+7 -1 3001
 D5
 ~
 ~
@@ -1849,7 +1849,7 @@ S
 
 
 #RESETS
-D 0 9141 1 1
+D 0 9141 1 7
 M 0 9101 35 9102 2
 M 0 9101 35 9102 2
 M 0 9101 35 9105 2

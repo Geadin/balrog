@@ -2587,7 +2587,7 @@ stretch on endlessly to the south, hiding treasure and adventure.
 D0
 ~
 gate~
-1 9501 9513
+7 9501 9513
 S
 #9512
 The Southern Bridge~
@@ -2627,7 +2627,7 @@ D0
 D2
 ~
 gate~
-1 9501 9511
+7 9501 9511
 S
 #9514
 The Northwestern Market Square~
@@ -2826,7 +2826,7 @@ stretches out east and west. To the north lay wilderness of the desert.
 D0
 ~
 gate~
-1 9501 9667
+7 9501 9667
 D1
 ~
 ~
@@ -2862,7 +2862,7 @@ D2
 D3
 ~
 gate~
-1 9501 9669
+7 9501 9669
 S
 #9524
 West Main Street~
@@ -3057,7 +3057,7 @@ D0
 D1
 ~
 gate~
-1 9501 9668
+7 9501 9668
 D3
 ~
 ~
@@ -3618,7 +3618,7 @@ D5
 You see a manhole covering an opening in the road.
 ~
 manhole hole man~
-1 -1 9575
+7 -1 9575
 S
 #9560
 Guildsman's Row~
@@ -3845,7 +3845,7 @@ D5
 You see a small iron circle imbedded in the ground.
 ~
 manhole man hole~
-1 -1 9578
+7 -1 9578
 S
 #9571
 Alley~
@@ -3915,7 +3915,7 @@ D5
 You see a small round iron plate set in the ground.
 ~
 manhole man hole~
-1 -1 9581
+7 -1 9581
 S
 #9575
 Underground~
@@ -3931,7 +3931,7 @@ D2
 D4
 ~
 man hole manhole~
-1 -1 9559
+7 -1 9559
 S
 #9576
 Underground~
@@ -3985,7 +3985,7 @@ D3
 D4
 ~
 manhole man hole~
-1 -1 9570
+7 -1 9570
 S
 #9579
 Underground~
@@ -4033,7 +4033,7 @@ D1
 D4
 ~
 manhole man hole~
-1 -1 9574
+7 -1 9574
 S
 #9582
 Underground~
@@ -4277,7 +4277,7 @@ door east~
 D2
 ~
 drawbridge draw bridge door~
-2 7901 6100
+4103 7901 6100
 D3
 ~
 door west~
@@ -4434,7 +4434,7 @@ You notice the floor at the base of the eastern wall has some faint
 scratches in it.
 ~
 secret door~
-1 -1 9579
+7 -1 9579
 D4
 ~
 ~
@@ -4701,7 +4701,7 @@ D2
 You see some small scratches on the floor near the base of the wall.
 ~
 secret door~
-1 -1 9624
+7 -1 9624
 D4
 ~
 ~
@@ -4957,7 +4957,7 @@ D1
 You notice some small scratches in the floor next to the eastern wall.
 ~
 secret door~
-1 -1 9632
+7 -1 9632
 S
 #9631
 The Mercenary's Guild~
@@ -5014,7 +5014,7 @@ D1
 You see the grass near the base of the wall here is slightly torn.
 ~
 secret door~
-1 -1 9573
+7 -1 9573
 D3
 ~
 ~
@@ -5058,7 +5058,7 @@ D0
 D5
 ~
 secret sesame~
-2 9591 9750
+4103 9591 9750
 S
 #9637
 Ye Old Leather Shoppe~
@@ -5253,7 +5253,7 @@ D2
 You see some small scratches in the wall to the south.
 ~
 secret door~
-1 -1 9589
+7 -1 9589
 D4
 ~
 ~
@@ -5496,7 +5496,7 @@ D 0
 D0
 ~
 door~
-1 -1 9663
+7 -1 9663
 D3
 ~
 ~
@@ -5525,7 +5525,7 @@ D 0
 D2
 ~
 door small~
-1 -1 9661
+7 -1 9661
 D3
 ~
 ~
@@ -5761,7 +5761,7 @@ iron~
 D5
 ~
 steel~
-1 -1 9691
+7 -1 9691
 S
 #9676
 Guest Room~
@@ -6081,11 +6081,11 @@ AD 0
 D1
 ~
 door~
-1 -1 9692
+7 -1 9692
 D4
 ~
 steel~
-1 -1 9675
+7 -1 9675
 S
 #9692
 Tunnel in the Dungeon~
@@ -6097,7 +6097,7 @@ AD 0
 D0
 ~
 cell north~
-2 9593 9697
+4103 9593 9697
 D1
 ~
 ~
@@ -6105,11 +6105,11 @@ D1
 D2
 ~
 cell south~
-2 9593 9701
+4103 9593 9701
 D3
 ~
 door~
-1 -1 9691
+7 -1 9691
 S
 #9693
 Tunnel in the Dungeon~
@@ -6121,7 +6121,7 @@ AD 0
 D0
 ~
 cell north~
-2 9593 9698
+4103 9593 9698
 D1
 ~
 ~
@@ -6129,7 +6129,7 @@ D1
 D2
 ~
 cell south~
-2 9593 9702
+4103 9593 9702
 D3
 ~
 ~
@@ -6145,7 +6145,7 @@ AD 0
 D0
 ~
 cell north~
-2 9593 9699
+4103 9593 9699
 D1
 ~
 ~
@@ -6153,7 +6153,7 @@ D1
 D2
 ~
 cell south~
-2 9593 9703
+4103 9593 9703
 D3
 ~
 ~
@@ -6170,15 +6170,15 @@ AD 0
 D0
 ~
 cell north~
-2 9593 9700
+4103 9593 9700
 D1
 ~
 crack~
-1 9500 9696
+7 9500 9696
 D2
 ~
 cell south~
-2 9593 9704
+4103 9593 9704
 D3
 ~
 ~
@@ -6196,7 +6196,7 @@ AD 0
 D3
 ~
 crack~
-1 9500 9695
+7 9500 9695
 S
 #9697
 Cell~
@@ -6207,7 +6207,7 @@ AD 0
 D2
 ~
 cell~
-2 9593 9692
+4103 9593 9692
 S
 #9698
 Cell~
@@ -6218,7 +6218,7 @@ AD 0
 D2
 ~
 cell~
-2 9593 9693
+4103 9593 9693
 S
 #9699
 Cell~
@@ -6229,7 +6229,7 @@ AD 0
 D2
 ~
 cell~
-2 9593 9694
+4103 9593 9694
 S
 #9700
 Cell~
@@ -6240,7 +6240,7 @@ AD 0
 D2
 ~
 cell~
-2 9593 9695
+4103 9593 9695
 S
 #9701
 Cell~
@@ -6251,7 +6251,7 @@ AD 0
 D0
 ~
 cell~
-2 9593 9692
+4103 9593 9692
 S
 #9702
 Cell~
@@ -6262,7 +6262,7 @@ AD 0
 D0
 ~
 cell~
-2 9593 9693
+4103 9593 9693
 S
 #9703
 Cell~
@@ -6274,7 +6274,7 @@ D0
 ~
 cell
 cell~
-2 9593 9694
+4103 9593 9694
 S
 #9704
 Cell~
@@ -6286,7 +6286,7 @@ D0
 ~
 cell
 cell~
-2 9593 9695
+4103 9593 9695
 S
 #9705
 Hall~
@@ -6731,7 +6731,7 @@ D 0
 D4
 ~
 secret sesame~
-2 9591 9636
+4103 9591 9636
 S
 #9772
 On the Dark River~
@@ -7211,49 +7211,49 @@ S
 
 
 #RESETS
-D 0 9511 0 1
-D 0 9513 2 1
-D 0 9522 0 1
-D 0 9523 3 1
-D 0 9531 1 1
-D 0 9559 5 1
-D 0 9570 5 1
-D 0 9574 5 1
-D 0 9575 4 1
-D 0 9578 4 1
-D 0 9581 4 1
-D 0 9594 2 2
-D 0 9603 1 1
-D 0 9617 2 1
-D 0 9630 1 1
-D 0 9634 1 1
-D 0 9636 5 2
-D 0 9646 2 1
-D 0 9661 0 1
-D 0 9663 2 1
-D 0 9675 5 1
-D 0 9691 1 1
-D 0 9691 4 1
-D 0 9692 0 2
-D 0 9692 2 2
-D 0 9692 3 1
-D 0 9693 0 2
-D 0 9693 2 2
-D 0 9694 0 2
-D 0 9694 2 2
-D 0 9695 0 2
-D 0 9695 1 1
-D 0 9695 2 2
-D 0 9696 3 1
-D 0 9697 2 2
-D 0 9698 2 2
-D 0 9699 2 2
-D 0 9700 2 2
-D 0 9701 0 2
-D 0 9702 0 2
-D 0 9703 0 2
-D 0 9704 0 2
-D 0 9750 4 2
+D 0 9511 0 7
+D 0 9513 2 7
+D 0 9522 0 7
+D 0 9523 3 7
+D 0 9531 1 7
+D 0 9559 5 7
+D 0 9570 5 7
+D 0 9574 5 7
+D 0 9575 4 7
+D 0 9578 4 7
+D 0 9581 4 7
+D 0 9594 2 4103
+D 0 9603 1 7
+D 0 9617 2 7
+D 0 9630 1 7
+D 0 9634 1 7
+D 0 9636 5 4103
+D 0 9646 2 7
+D 0 9661 0 7
+D 0 9663 2 7
+D 0 9675 5 7
+D 0 9691 1 7
+D 0 9691 4 7
+D 0 9692 0 4103
+D 0 9692 2 4103
+D 0 9692 3 7
+D 0 9693 0 4103
+D 0 9693 2 4103
+D 0 9694 0 4103
+D 0 9694 2 4103
+D 0 9695 0 4103
+D 0 9695 1 7
+D 0 9695 2 4103
+D 0 9696 3 7
+D 0 9697 2 4103
+D 0 9698 2 4103
+D 0 9699 2 4103
+D 0 9700 2 4103
+D 0 9701 0 4103
+D 0 9702 0 4103
+D 0 9703 0 4103
+D 0 9704 0 4103
+D 0 9750 4 4103
 M 0 9504 1 9501 1
 M 0 9505 1 9502 1
 G 0 9569 0

@@ -775,7 +775,7 @@ D0
 D4
 ~
 floorboard board~
-1 -1 6527
+7 -1 6527
 S
 #2066
 Unknown passage~
@@ -870,7 +870,7 @@ D2
 D4
 ~
 floorboard board~
-1 -1 6524
+7 -1 6524
 S
 #2002
 North/south tunnel~
@@ -1366,7 +1366,7 @@ D2
 a glowing forcefield with a small circular hole in it.
 ~
 glow glowing field forcefield door~
-2 2001 2032
+4103 2001 2032
 D3
 ~
 ~
@@ -1441,7 +1441,7 @@ D0
 a glowing forcefield with a small circular hole in it.
 ~
 glow glowing field forcefield door~
-2 2001 2028
+4103 2001 2028
 S
 #2033
 Misty passageway~
@@ -1736,10 +1736,10 @@ S
 
 
 #RESETS
-D 0 2065 4 1
-D 0 2001 4 1
-D 0 2028 2 2
-D 0 2032 0 2
+D 0 2065 4 7
+D 0 2001 4 7
+D 0 2028 2 4103
+D 0 2032 0 4103
 M 0 2006 7 2049 1
 M 0 2016 1 2050 1
 E 0 2012 0 5

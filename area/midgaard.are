@@ -3117,7 +3117,7 @@ D3
 You see a sign saying 'KEEP OUT'.
 ~
 door~
-2 3120 3142
+4103 3120 3142
 S
 #3111
 Park Road~
@@ -3444,7 +3444,7 @@ D2
 Through the solid iron bars you see the graveyard.
 ~
 grate~
-2 3121 3600
+4103 3121 3600
 D3
 ~
 ~
@@ -3760,12 +3760,12 @@ D1
 You see the Cityguard Head Quarters.
 ~
 door~
-2 3120 3110
+4103 3120 3110
 D2
 You see the heavy steel door.
 ~
 door~
-2 3137 3143
+4103 3137 3143
 S
 #3143
 The Jail~
@@ -3783,7 +3783,7 @@ D0
 You see the heavy steel door.
 ~
 door~
-2 3137 3142
+4103 3137 3142
 S
 #3144
 The end of Elm Street~
@@ -3872,7 +3872,7 @@ D0
 A sign on the door says, "Unauthorized Personel Prohibited".
 ~
 door~
-2 3161 3161
+4103 3161 3161
 D2
 To the south is the Poor Alley.  Across the alley, you see the Grubby Inn.
 ~
@@ -3899,7 +3899,7 @@ D2
 A small door to the south leads out into the map shop.
 ~
 door~
-2 3161 3160
+4103 3161 3160
 D4
 ~
 ~
@@ -6262,13 +6262,13 @@ S
 
 
 #RESETS
-D 0 3110 3 2
-D 0 3124 2 2
-D 0 3142 1 2
-D 0 3142 2 2
-D 0 3143 0 2
-D 0 3160 0 2
-D 0 3161 2 2
+D 0 3110 3 4103
+D 0 3124 2 4103
+D 0 3142 1 4103
+D 0 3142 2 4103
+D 0 3143 0 4103
+D 0 3160 0 4103
+D 0 3161 2 4103
 O 0 3134 0 3101
 O 0 3134 0 3102
 O 0 3134 0 3103

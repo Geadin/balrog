@@ -1468,7 +1468,7 @@ D4
 You see the forcefield of Spring.
 ~
 forcefield~
-2 9324 9354
+4103 9324 9354
 D5
 ~
 ~
@@ -1664,7 +1664,7 @@ D4
 You see the forcefield of Summer.
 ~
 forcefield~
-2 9325 9355
+4103 9325 9355
 D5
 You see the forcefield of Spring.
 ~
@@ -1748,7 +1748,7 @@ D1
 You see the forcefield of Autumn.
 ~
 forcefield~
-2 9326 9360
+4103 9326 9360
 D2
 ~
 ~
@@ -1817,7 +1817,7 @@ D1
 D2
 You see the forcefield of Winter.~
 forcefield~
-2 9327 9364
+4103 9327 9364
 S
 #9364
 At the Entrance of the Great Dipper~
@@ -1983,10 +1983,10 @@ S
 
 
 #RESETS
-D 0 9339 4 2
-D 0 9354 4 2
-D 0 9359 1 2
-D 0 9363 2 2
+D 0 9339 4 4103
+D 0 9354 4 4103
+D 0 9359 1 4103
+D 0 9363 2 4103
 M 0 9302 9 9304 1
 M 0 9305 4 9304 1
 M 0 9306 3 9306 1

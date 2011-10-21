@@ -630,7 +630,7 @@ D2
 To the south, the path leads straight up to the front door of the mansion.
 ~
 door~
-1 -1 8910
+7 -1 8910
 S
 #8910
 The foyer~
@@ -654,11 +654,11 @@ Through the windows next to the door you can see the croquet lawn, bathed in
 afternoon sunlight.
 ~
 door~
-1 -1 8909
+7 -1 8909
 D2
 ~
 door~
-1 -1 8911
+7 -1 8911
 S
 #8911
 The hallway~
@@ -671,11 +671,11 @@ D 0
 D0
 ~
 door~
-1 -1 8910
+7 -1 8910
 D1
 ~
 door~
-1 -1 8912
+7 -1 8912
 D2
 ~
 ~
@@ -694,7 +694,7 @@ DJ 0
 D3
 ~
 door~
-1 -1 8911
+7 -1 8911
 S
 #8913
 The hallway~
@@ -711,15 +711,15 @@ D0
 D1
 ~
 door~
-1 -1 8914
+7 -1 8914
 D2
 ~
 door~
-1 -1 8915
+7 -1 8915
 D3
 ~
 door~
-1 -1 8916
+7 -1 8916
 S
 #8914
 The red room~
@@ -734,7 +734,7 @@ DJ 0
 D3
 ~
 door~
-1 -1 8913
+7 -1 8913
 S
 #8915
 The kitchen~
@@ -751,11 +751,11 @@ D 0
 D0
 ~
 door~
-1 -1 8913
+7 -1 8913
 D3
 ~
 door~
-1 -1 8918
+7 -1 8918
 S
 #8916
 The ballroom~
@@ -770,11 +770,11 @@ D 0
 D1
 ~
 door~
-1 -1 8913
+7 -1 8913
 D2
 ~
 door~
-1 -1 8918
+7 -1 8918
 D3
 ~
 ~
@@ -799,7 +799,7 @@ D1
 D2
 ~
 door~
-1 -1 8919
+7 -1 8919
 S
 #8918
 The dining hall~
@@ -827,15 +827,15 @@ portrait of a silver Dragon, sparkling with blue lightening, looking amused.
 D0
 ~
 door~
-1 -1 8916
+7 -1 8916
 D1
 ~
 door~
-1 -1 8915
+7 -1 8915
 D3
 ~
 wide door~
-1 -1 8919
+7 -1 8919
 S
 #8919
 The terrace~
@@ -851,11 +851,11 @@ CD 0
 D0
 ~
 door~
-1 -1 8917
+7 -1 8917
 D1
 ~
 double door~
-1 -1 8918
+7 -1 8918
 D3
 ~
 ~
@@ -930,26 +930,26 @@ S
 
 
 #RESETS
-D 0 8909 2 1
-D 0 8910 0 1
-D 0 8910 2 1
-D 0 8911 0 1
-D 0 8911 1 1
-D 0 8912 3 1
-D 0 8913 1 1
-D 0 8913 2 1
-D 0 8913 3 1
-D 0 8914 3 1
-D 0 8915 0 1
-D 0 8915 3 1
-D 0 8916 1 1
-D 0 8916 2 1
-D 0 8917 2 1
-D 0 8918 0 1
-D 0 8918 1 1
-D 0 8918 3 1
-D 0 8919 0 1
-D 0 8919 1 1
+D 0 8909 2 7
+D 0 8910 0 7
+D 0 8910 2 7
+D 0 8911 0 7
+D 0 8911 1 7
+D 0 8912 3 7
+D 0 8913 1 7
+D 0 8913 2 7
+D 0 8913 3 7
+D 0 8914 3 7
+D 0 8915 0 7
+D 0 8915 3 7
+D 0 8916 1 7
+D 0 8916 2 7
+D 0 8917 2 7
+D 0 8918 0 7
+D 0 8918 1 7
+D 0 8918 3 7
+D 0 8919 0 7
+D 0 8919 1 7
 M 0 8901 1 8901 1
 E 0 8910 0 16
 E 0 8911 0 5

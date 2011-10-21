@@ -981,7 +981,7 @@ D5
 You see some sandy stones pressed closely together to form a hard surface.
 ~
 stones~
-1 -1 8708
+7 -1 8708
 S
 #8707
 Climbing the Great Pyramid~
@@ -1015,7 +1015,7 @@ D4
 You see the sandy stones of the ceiling.
 ~
 stones~
-1 -1 8706
+7 -1 8706
 D5
 You see a small dusty chamber.
 ~
@@ -1063,7 +1063,7 @@ D3
 You see a large stone door, covered in sigils and hieroglyphs.
 ~
 door stone~
-1 -1 8710
+7 -1 8710
 D4
 A small rickety ladder leads up.
 ~
@@ -1083,7 +1083,7 @@ D1
 You see a large stone door.
 ~
 door stone~
-1 -1 8709
+7 -1 8709
 D3
 You see a small chamber filled with fire.
 ~
@@ -1359,7 +1359,7 @@ D2
 You see a strange-looking black shape.
 ~
 sesame~
-2 8723 8723
+4103 8723 8723
 D4
 It is too dark for you to see anything along the crevasse.
 ~
@@ -1390,7 +1390,7 @@ D0
 Through the jaws of the tiger you see the blackness of the crevasse.
 ~
 ~
-2 8723 8722
+4103 8723 8722
 S
 #8724
 A Crack in the Wall~
@@ -1469,7 +1469,7 @@ D3
 You see a large stone coffin.
 ~
 coffin lid~
-2 8712 8727
+4103 8712 8727
 S
 #8727
 A Stairway~
@@ -1492,7 +1492,7 @@ D1
 You see the backside of the coffin lid, featureless stone.
 ~
 coffin lid~
-2 -1 8726
+4103 -1 8726
 D5
 It is too dark to see down the stairway.
 ~
@@ -1534,7 +1534,7 @@ D2
 You see a seam in the stone wall.
 ~
 stone~
-1 -1 8730
+7 -1 8730
 D4
 It is too dark to see up the stairway.
 ~
@@ -1559,7 +1559,7 @@ D0
 You see a seam in the stone wall.
 ~
 stone~
-1 -1 8729
+7 -1 8729
 D2
 You see a small raised dais.
 ~
@@ -1590,7 +1590,7 @@ D5
 You see a seam in the stone floor.
 ~
 tomb~
-1 -1 8732
+7 -1 8732
 S
 #8732
 The Tomb of Ramses~
@@ -1602,7 +1602,7 @@ D4
 That leads back the way you came.
 ~
 tomb~
-1 -1 8731
+7 -1 8731
 S
 #8733
 A Ransacked Tomb~
@@ -1830,7 +1830,7 @@ D5
 The floor is quite dusty, and made of stone.  You see some cracks.
 ~
 floor~
-1 -1 8744
+7 -1 8744
 S
 #8744
 The Tomb Entrance~
@@ -1855,12 +1855,12 @@ D0
 You see the tomb of the pharoahs.
 ~
 tomb~
-1 -1 8745
+7 -1 8745
 D4
 The stone ceiling has some cracks in it, through which a dim light streams.
 ~
 ceiling~
-1 -1 8743
+7 -1 8743
 S
 #8745
 The Tomb of the Pharoahs~
@@ -1880,7 +1880,7 @@ D2
 That way leads back out of the tomb.
 ~
 tomb~
-1 -1 8744
+7 -1 8744
 S
 #8746
 A Rubble-Strewn Hallway~
@@ -2080,16 +2080,16 @@ You see only a wall of whirling, blowing, dry sand.
 ~
 ~
 0 -1 8755
-D3
-You see only a wall of whirling, blowing, dry sand.
-~
-~
-0 -1 8754
 D0
 You see only a wall of whirling, blowing, dry sand.
 ~
 ~
 0 -1 8753
+D3
+You see only a wall of whirling, blowing, dry sand.
+~
+~
+0 -1 8754
 D1
 You see only a wall of whirling, blowing, dry sand.
 ~
@@ -2109,26 +2109,26 @@ sand~
 Sand is about all you CAN see right now.  Unfortunately, it isn't very
 interesting sand, only white, dry, and blowing all over the place.
 ~
-D0
-You see only a wall of whirling, blowing, dry sand.
-~
-~
-0 -1 8754
-D3
-You see only a wall of whirling, blowing, dry sand.
-~
-~
-0 -1 8755
-D1
-You see only a wall of whirling, blowing, dry sand.
-~
-~
-0 -1 8755
 D2
 You see only a wall of whirling, blowing, dry sand.
 ~
 ~
 0 -1 8756
+D0
+You see only a wall of whirling, blowing, dry sand.
+~
+~
+0 -1 8754
+D1
+You see only a wall of whirling, blowing, dry sand.
+~
+~
+0 -1 8755
+D3
+You see only a wall of whirling, blowing, dry sand.
+~
+~
+0 -1 8755
 S
 #8756
 A Swirling Sandstorm~
@@ -2143,16 +2143,6 @@ sand~
 Sand is about all you CAN see right now.  Unfortunately, it isn't very
 interesting sand, only white, dry, and blowing all over the place.
 ~
-D1
-You see only a wall of whirling, blowing, dry sand.
-~
-~
-0 -1 8756
-D0
-You see only a wall of whirling, blowing, dry sand.
-~
-~
-0 -1 8755
 D2
 You see only a wall of whirling, blowing, dry sand.
 ~
@@ -2163,6 +2153,16 @@ You see only a wall of whirling, blowing, dry sand.
 ~
 ~
 0 -1 8756
+D1
+You see only a wall of whirling, blowing, dry sand.
+~
+~
+0 -1 8756
+D0
+You see only a wall of whirling, blowing, dry sand.
+~
+~
+0 -1 8755
 S
 #8757
 A Swirling Sandstorm~
@@ -2177,26 +2177,26 @@ sand~
 Sand is about all you CAN see right now.  Unfortunately, it isn't very
 interesting sand, only white, dry, and blowing all over the place.
 ~
-D1
-You see only a wall of whirling, blowing, dry sand.
-~
-~
-0 -1 8757
 D3
 You see only a wall of whirling, blowing, dry sand.
 ~
 ~
 0 -1 8757
-D2
+D1
 You see only a wall of whirling, blowing, dry sand.
 ~
 ~
-0 -1 8758
+0 -1 8757
 D0
 You see only a wall of whirling, blowing, dry sand.
 ~
 ~
 0 -1 8756
+D2
+You see only a wall of whirling, blowing, dry sand.
+~
+~
+0 -1 8758
 S
 #8758
 A Massive Sand Dune~
@@ -2232,7 +2232,7 @@ On the southern side of the sand dune is a small hole in the sand.
 For some reason you seem unable to get to it.
 ~
 riddle~
-2 8717 8759
+4103 8717 8759
 S
 #8759
 Through the Hole in the Sand~
@@ -2269,23 +2269,23 @@ S
 
 
 #RESETS
-D 0 8706 5 1
-D 0 8708 4 1
-D 0 8709 3 1
-D 0 8710 1 1
-D 0 8722 2 2
-D 0 8723 0 2
-D 0 8726 3 2
-D 0 8727 1 2
-D 0 8729 2 1
-D 0 8730 0 1
-D 0 8731 5 1
-D 0 8732 4 1
-D 0 8743 5 1
-D 0 8744 0 1
-D 0 8744 4 1
-D 0 8745 2 1
-D 0 8758 2 2
+D 0 8706 5 7
+D 0 8708 4 7
+D 0 8709 3 7
+D 0 8710 1 7
+D 0 8722 2 4103
+D 0 8723 0 4103
+D 0 8726 3 4103
+D 0 8727 1 4103
+D 0 8729 2 7
+D 0 8730 0 7
+D 0 8731 5 7
+D 0 8732 4 7
+D 0 8743 5 7
+D 0 8744 0 7
+D 0 8744 4 7
+D 0 8745 2 7
+D 0 8758 2 4103
 M 0 8700 6 8702 2
 M 0 8701 4 8703 2
 M 0 8700 6 8705 1

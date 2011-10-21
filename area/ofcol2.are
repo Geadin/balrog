@@ -1337,7 +1337,7 @@ D1
 You see the storage shed.
 ~
 door~
-1 -1 616
+7 -1 616
 S
 #601
 The Big Intersection~
@@ -1668,7 +1668,7 @@ D3
 You see the door.
 ~
 door~
-1 -1 600
+7 -1 600
 S
 #617
 Slaughterhouse~
@@ -1705,7 +1705,7 @@ D2
 You see the chicken coop.
 ~
 coop~
-1 -1 619
+7 -1 619
 D3
 You see the dirt road.
 ~
@@ -1723,7 +1723,7 @@ D0
 You can sense the fresh air.
 ~
 ~
-1 -1 618
+7 -1 618
 S
 #620
 Barn~
@@ -1822,7 +1822,7 @@ D1
 You see a big house.
 ~
 door~
-2 665 626
+4103 665 626
 D2
 You see a big intersection.
 ~
@@ -1832,7 +1832,7 @@ D3
 You see a big house.
 ~
 door~
-2 665 629
+4103 665 629
 S
 #626
 Big House~
@@ -1852,7 +1852,7 @@ D3
 You see Impy Way.
 ~
 door~
-2 665 625
+4103 665 625
 D4
 You see the bedroom.
 ~
@@ -1898,7 +1898,7 @@ D1
 You see Impy Way.
 ~
 door~
-2 665 625
+4103 665 625
 D3
 You see the kitchen.
 ~
@@ -1952,7 +1952,7 @@ D1
 You see a house.
 ~
 door~
-1 -1 633
+7 -1 633
 D2
 Impy Way continues south.
 ~
@@ -1962,7 +1962,7 @@ D3
 You see a house.
 ~
 door~
-1 -1 635
+7 -1 635
 S
 #633
 House~
@@ -1980,7 +1980,7 @@ D3
 You see Impy Way.
 ~
 door~
-1 -1 632
+7 -1 632
 S
 #634
 Bedroom~
@@ -2006,7 +2006,7 @@ D1
 You see Impy Way.
 ~
 door~
-1 -1 632
+7 -1 632
 D2
 You see the bedroom.
 ~
@@ -2043,7 +2043,7 @@ D1
 You see a house.
 ~
 door~
-1 -1 638
+7 -1 638
 D2
 Impy Way continues south.
 ~
@@ -2053,7 +2053,7 @@ D3
 You see a house.
 ~
 door~
-1 -1 640
+7 -1 640
 S
 #638
 House~
@@ -2071,7 +2071,7 @@ D3
 You see Impy Way.
 ~
 door~
-1 -1 637
+7 -1 637
 S
 #639
 Bedroom~
@@ -2097,7 +2097,7 @@ D1
 You see Impy Way.
 ~
 door~
-1 -1 637
+7 -1 637
 D2
 You see the bedroom.
 ~
@@ -2129,7 +2129,7 @@ D0
 You see the big house.
 ~
 door~
-2 665 643
+4103 665 643
 D1
 Swiftest Way continues east.
 ~
@@ -2164,7 +2164,7 @@ D2
 You see Impy Way.
 ~
 door~
-2 665 642
+4103 665 642
 D4
 You see the bedroom.
 ~
@@ -3276,24 +3276,24 @@ S
 
 
 #RESETS
-D 0 600 1 1
-D 0 616 3 1
-D 0 618 2 1
-D 0 619 0 1
-D 0 625 1 2
-D 0 625 3 2
-D 0 626 3 2
-D 0 629 1 2
-D 0 632 1 1
-D 0 632 3 1
-D 0 633 3 1
-D 0 635 1 1
-D 0 637 1 1
-D 0 637 3 1
-D 0 638 3 1
-D 0 640 1 1
-D 0 642 0 2
-D 0 643 2 2
+D 0 600 1 7
+D 0 616 3 7
+D 0 618 2 7
+D 0 619 0 7
+D 0 625 1 4103
+D 0 625 3 4103
+D 0 626 3 4103
+D 0 629 1 4103
+D 0 632 1 7
+D 0 632 3 7
+D 0 633 3 7
+D 0 635 1 7
+D 0 637 1 7
+D 0 637 3 7
+D 0 638 3 7
+D 0 640 1 7
+D 0 642 0 4103
+D 0 643 2 4103
 M 0 609 1 600 1
 O 0 649 0 600
 M 0 600 8 601 1
