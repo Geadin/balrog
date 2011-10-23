@@ -1855,7 +1855,8 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
        
 	write_to_buffer( d, echo_on_str, 0 );
 	write_to_buffer(d,"The following races are available:\n\r  ",0);
-	for ( race = 1; race_table[race].name != NULL; race++ )
+	
+/*	for ( race = 1; race_table[race].name != NULL; race++ )
 	{
 	    if (!race_table[race].pc_race)
 		break;
@@ -1865,7 +1866,8 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
             do_function(ch, &do_help, "race help" );
 	}
 	
-	write_to_buffer(d,"\n\r",0);
+	write_to_buffer(d,"\n\r",0);*/
+	do_function(ch, &do_help, "race");
 	write_to_buffer(d,"What is your race (help for more information)? ",0);
 	/*do_function(ch, &do_help, "help race");*/
         d->connected = CON_GET_NEW_RACE;
