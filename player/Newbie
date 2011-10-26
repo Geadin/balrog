@@ -1,0 +1,113 @@
+#PLAYER
+Name Newbie~
+Id   1317803295
+LogO 1317814912
+Vers 5
+Prom <%hhp %mm %vmv> ~
+Race human~
+Sex  1
+Cla  3
+Levl 1
+Sec  0
+Plyd 673
+Not  0 0 0 0 0
+Scro 22
+Room 3509
+HMV  20 20 100 100 100 100
+Gold 0
+Silv 0
+Exp  1000
+Act  DQT
+Comm NO
+Pos  8
+Prac 5
+Trai 3
+Save  -1
+Alig  0
+Hit   1
+ACs 95 95 95 99
+Attr 16 13 13 13 13
+AMod 0 0 0 0 0
+Pass Ne1h7t1qTBsL6~
+Titl  the Swordpupil~
+Pnts 40
+TSex 1
+LLev 0
+HMVP 20 100 100
+Cnd  0 26 37 37
+Coloura     007 007 007 001 013
+Colourb     013 003 002 001 017
+Colourc     113 007 002 002 001
+Colourd     007 007 002 006 007
+Coloure     011 002 003 001 017
+Colourf     002 007 013 002 012
+Colourg     016 014 011 017 017
+Sk 1 'axe'
+Sk 1 'dagger'
+Sk 1 'flail'
+Sk 1 'mace'
+Sk 1 'polearm'
+Sk 1 'shield block'
+Sk 1 'spear'
+Sk 40 'sword'
+Sk 1 'whip'
+Sk 1 'bash'
+Sk 1 'disarm'
+Sk 1 'enhanced damage'
+Sk 1 'parry'
+Sk 1 'rescue'
+Sk 1 'second attack'
+Sk 1 'third attack'
+Sk 1 'scrolls'
+Sk 1 'staves'
+Sk 1 'wands'
+Sk 50 'recall'
+Sk 1 ''
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'weaponsmaster'
+End
+
+#O
+Vnum 3716
+Nest 0
+Cond 0
+Wear 0
+Cost 0
+Val  0 0 189 0 0
+End
+
+#O
+Vnum 3703
+Nest 0
+Cond 0
+Wear 5
+Cost 0
+End
+
+#O
+Vnum 3702
+Nest 0
+Cond 0
+Wear 16
+Cost 360
+End
+
+#O
+Vnum 3704
+Nest 0
+Cond 0
+Wear 11
+Cost 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Cond 0
+Wear -1
+Cost 500
+End
+
+#END
